@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Immersal_Scene/Yggdrasil_Immersal_Scene.unity
+    guid: 4f37d68bb021b764e94ffde200b24b7b
+  - enabled: 0
+    path: Assets/Niantic_Scene/Yggdrasil_Niantic_Scene.unity
+    guid: 5f8e798550912154e8d921ba426c2ca3
+  - enabled: 0
+    path: Assets/Immersal_Scene/Yggdrasil_ImmersalNoAR_Scene.unity
+    guid: c813441a5d73abf488d33a404b259c76
+  m_configObjects:
+    Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: 05b0489c7d3114fe3b5a5321c06a66dd, type: 2}
+    Niantic.Lightship.AR.NSDKNsdkSettings: {fileID: 0}
+    Niantic.Lightship.AR.WPSSettings: {fileID: 11400000, guid: ee6baa83fec89444b99181fc1ccffc2a, type: 2}
+    Niantic.Lightship.AR.WorldPositioningSettings: {fileID: 11400000, guid: ee6baa83fec89444b99181fc1ccffc2a, type: 2}
+    NianticSpatial.NSDK.AR.AuthBuildSettings: {fileID: 11400000, guid: e197c45409a96416cb9df6585ac5cddb, type: 2}
+    NianticSpatial.NSDK.AR.NsdkSettings: {fileID: 11400000, guid: 5125f6cd9c038486994843154ea75a9f, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 0ba5772da672041b0b49b09b47e32b89, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: bfd7813fb960643da9fd42f1589db513, type: 2}
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: a31b110bf36b61245ba2b2b294b68a69, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 1fa92adc804da404aa1ef2bd2e51772b, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 71f5dfad62a9f4d448424bbde9cdcb48, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: c95e804ebc838d64e9c89be153d7b026, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 217d86e680eb34b97bb0bb2a6ec7bfac, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 35d0a95eeda964a40a7be7be884e643f, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2751b5cd4300340c38aef3e21700408a, type: 2}
+  m_UseUCBPForAssetBundles: 0

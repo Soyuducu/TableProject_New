@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4e9d3f33cb1ab624a8286c0670f510fc
+timeCreated: 1473691359
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 73777
+  packageName: Legacy Particle Pack
+  packageVersion: 4.0
+  assetPath: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/ElectricalSparksEffect.prefab
+  uploadId: 684565

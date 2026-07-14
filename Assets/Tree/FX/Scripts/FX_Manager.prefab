@@ -1,0 +1,446 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7885141125482847573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5622833756855003513}
+  - component: {fileID: 4915558981633535807}
+  - component: {fileID: 1168606497597664053}
+  m_Layer: 0
+  m_Name: FX_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5622833756855003513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7885141125482847573}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.087954, y: -0.86886066, z: -0.31923962}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4915558981633535807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7885141125482847573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619a913ba1dee2b488b3456bc2ac8b64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sequence:
+  - totalStepDuration: 22
+    keepActiveInNextSteps: 1
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 10
+      stayActiveUntilEnd: 1
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 3
+      durationOfActive: 20
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 14
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 10
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 8
+      durationOfActive: 12
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 12
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 12
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 10
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 8
+      durationOfActive: 12
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 12
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 12
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 10
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 8
+      durationOfActive: 12
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 15
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 12
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 10
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 9
+      durationOfActive: 12
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 12
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 12
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 10
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 8
+      durationOfActive: 12
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 12
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 12
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 10
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 10
+      durationOfActive: 15
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 12
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 12
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 10
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 8
+      durationOfActive: 12
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 12
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 12
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 10
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 9
+      durationOfActive: 12
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 12
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 12
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 10
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 8
+      durationOfActive: 10
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 10
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 26
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 26
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 26
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 16
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 20
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 13
+      durationOfActive: 17
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 20
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 12
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 10
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 9
+      durationOfActive: 10
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 10
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 16
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 20
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 20
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 14
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 20
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 20
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 17
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 20
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 15
+      durationOfActive: 20
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 20
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  - totalStepDuration: 50
+    keepActiveInNextSteps: 0
+    objects:
+    - obj: {fileID: 0}
+      delayBeforeActive: 0
+      durationOfActive: 17
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 1
+      durationOfActive: 35
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+    - obj: {fileID: 0}
+      delayBeforeActive: 11
+      durationOfActive: 40
+      stayActiveUntilEnd: 0
+      isActivated: 0
+      isDeactivated: 0
+      currentActiveTime: 0
+  loop: 1
+--- !u!114 &1168606497597664053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7885141125482847573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 49549f853111fbd4db7e036aef0ca778, type: 2}
