@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "com.immersal.core": {
-      "version": "https://github.com/immersal/imdk-unity.git",
+      "version": "file:../imdk-unity-main",
       "depth": 0,
-      "source": "git",
+      "source": "local",
       "dependencies": {
         "com.unity.feature.development": "1.0.1",
         "com.unity.xr.arcore": "5.2.2",
@@ -15,8 +15,7 @@
         "com.unity.2d.sprite": "1.0.0",
         "com.unity.render-pipelines.universal": "14.0.12",
         "com.unity.ai.navigation": "1.1.7"
-      },
-      "hash": "5b0f144e2350bd3cfd755f551ae4085d25d3ff94"
+      }
     },
     "com.nianticspatial.nsdk": {
       "version": "https://github.com/nianticspatial/nsdk-library-upm.git",

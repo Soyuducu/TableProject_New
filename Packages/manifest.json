@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.immersal.core": "https://github.com/immersal/imdk-unity.git",
+    "com.immersal.core": "file:../imdk-unity-main",
     "com.nianticspatial.nsdk": "https://github.com/nianticspatial/nsdk-library-upm.git",
     "com.unity.adaptiveperformance": "5.1.6",
     "com.unity.adaptiveperformance.google.android": "5.1.6",
