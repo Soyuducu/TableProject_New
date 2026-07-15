@@ -21,7 +21,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: WaterCaustic_Cyiinder_cup
-  m_Shader: {fileID: -6465566751694194690, guid: 6bfd349daf4de374f98e90dfb9705e9d, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 6bfd349daf4de374f98e90dfb9705e9d,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -71,7 +72,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_1798D11F: 5.95
+    - Vector1_1798D11F: 3.88
     - _Float: -0.2
     - _Opacity: 0.492
     - _QueueControl: 1
