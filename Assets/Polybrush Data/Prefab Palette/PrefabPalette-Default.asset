@@ -15,7 +15,7 @@ MonoBehaviour:
   prefabs:
   - gameObject: {fileID: 94794527284557926, guid: 90f292c0384395946965a4bdaaa8da7e, type: 3}
     settings:
-      m_Strength: 57.3
+      m_Strength: 62.364807
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 360, y: 360, z: 360}
       m_ScaleRangeMin: {x: 0, y: 0.9, z: 0}
@@ -47,7 +47,7 @@ MonoBehaviour:
     name: tree_Ball
   - gameObject: {fileID: 5784167340966931765, guid: 8b42c00b75dc8e04285930056962f9cf, type: 3}
     settings:
-      m_Strength: 57.3
+      m_Strength: 100
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 360, y: 360, z: 360}
       m_ScaleRangeMin: {x: 0, y: 0.9, z: 0}
@@ -109,13 +109,13 @@ MonoBehaviour:
       m_YScaleBool: 1
       m_ZScaleBool: 0
     name: tree_Juniper
-  - gameObject: {fileID: 2279041465435015684, guid: 93a5dc217a5063344a62baebfe34fd9a, type: 3}
+  - gameObject: {fileID: 4196770122308137386, guid: b58684d91b349634081363f66b13c644, type: 3}
     settings:
-      m_Strength: 57.3
+      m_Strength: 50
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 360, y: 360, z: 360}
-      m_ScaleRangeMin: {x: 0, y: 0.9, z: 0}
-      m_ScaleRangeMax: {x: 1.2, y: 1.2, z: 1.2}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
       m_UniformScale: {x: 1, y: 1}
       m_UniformBool: 0
       m_XRotationBool: 0
@@ -124,4 +124,4 @@ MonoBehaviour:
       m_XScaleBool: 0
       m_YScaleBool: 1
       m_ZScaleBool: 0
-    name: tree_JuniperSmall
+    name: tree_Juniper
