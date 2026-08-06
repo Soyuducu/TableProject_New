@@ -102,7 +102,7 @@ Material:
     - _EnableStarsRotation: 0
     - _EnableStarsTwinkling: 0
     - _EnableSun: 1
-    - _EquatorHeight: 1
+    - _EquatorHeight: 0.473
     - _EquatorSmoothness: 0.01
     - _Exposure: 1
     - _FogCat: 1
@@ -142,10 +142,10 @@ Material:
     m_Colors:
     - _CloudsLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _CloudsShadowColor: {r: 0.7905838, g: 0.87591815, b: 0.8867924, a: 1}
-    - _EquatorColor: {r: 0, g: 0.4170805, b: 0.5283019, a: 1}
+    - _EquatorColor: {r: 0, g: 0.2788054, b: 0.8679245, a: 1}
     - _GroundColor: {r: 0, g: 0, b: 0, a: 1}
     - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SkyColor: {r: 0.6808473, g: 0.9228846, b: 0.9433962, a: 1}
+    - _SkyColor: {r: 0.2971698, g: 0.65513146, b: 1, a: 1}
     - _SkyTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _SkyboxRotationAxis: {r: 0, g: 1, b: 0, a: 0}
     - _StarsRotationAxis: {r: 0, g: 1, b: 0, a: 0}
