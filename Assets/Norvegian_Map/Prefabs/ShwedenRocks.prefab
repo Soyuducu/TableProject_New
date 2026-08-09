@@ -1,0 +1,474 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4435795158007076815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5823440000462232096}
+  m_Layer: 0
+  m_Name: ShwedenRocks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5823440000462232096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4435795158007076815}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3976370357121375907}
+  - {fileID: 942373396376045115}
+  - {fileID: 1959582901338704372}
+  - {fileID: 1098907829425308327}
+  - {fileID: 250004484616392000}
+  - {fileID: 3885773169679342095}
+  - {fileID: 6443264125733985734}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &356497663420394155
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5823440000462232096}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.08179687
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.023131903
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.020351563
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+      propertyPath: m_Name
+      value: ShwedenRock_6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+--- !u!4 &250004484616392000 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+  m_PrefabInstance: {fileID: 356497663420394155}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &633498623500870988
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5823440000462232096}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.26405272
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.024378356
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.014899902
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+      propertyPath: m_Name
+      value: ShwedenRock_5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+--- !u!4 &1098907829425308327 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+  m_PrefabInstance: {fileID: 633498623500870988}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &763715146193871312
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5823440000462232096}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.24707457
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.023660608
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.009687519
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+      propertyPath: m_Name
+      value: ShwedenRock_2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+--- !u!4 &942373396376045115 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+  m_PrefabInstance: {fileID: 763715146193871312}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2070370745527332383
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5823440000462232096}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3610547
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.021879578
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.06579101
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+      propertyPath: m_Name
+      value: ShwedenRock_3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+--- !u!4 &1959582901338704372 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+  m_PrefabInstance: {fileID: 2070370745527332383}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3505030558010947912
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5823440000462232096}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3007531
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.02584823
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.121468276
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+      propertyPath: m_Name
+      value: ShwedenRock_0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+--- !u!4 &3976370357121375907 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+  m_PrefabInstance: {fileID: 3505030558010947912}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3632068855012425188
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5823440000462232096}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.19577391
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.02395111
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.011141357
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+      propertyPath: m_Name
+      value: ShwedenRock_7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+--- !u!4 &3885773169679342095 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+  m_PrefabInstance: {fileID: 3632068855012425188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6836934725984664109
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5823440000462232096}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.045405272
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.021663513
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0019067383
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+      propertyPath: m_Name
+      value: ShwedenRock_8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+--- !u!4 &6443264125733985734 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+  m_PrefabInstance: {fileID: 6836934725984664109}
+  m_PrefabAsset: {fileID: 0}
