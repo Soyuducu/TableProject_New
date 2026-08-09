@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4435795158007076815}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -86,9 +86,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 614f8570742c1d14791ef34eb9ac7bbb, type: 2}
     - target: {fileID: 919132149155446097, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
       propertyPath: m_Name
       value: ShwedenRock_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c527920a909e0614c99ed6706f1cfc55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -110,7 +118,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.26405272
+      value: -0.2612
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
       propertyPath: m_LocalPosition.y
@@ -118,7 +126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.014899902
+      value: 0.0224
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4b8c5518cde038d43829746948607a04, type: 3}
       propertyPath: m_LocalRotation.w
@@ -148,9 +156,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 614f8570742c1d14791ef34eb9ac7bbb, type: 2}
     - target: {fileID: 919132149155446097, guid: 4b8c5518cde038d43829746948607a04, type: 3}
       propertyPath: m_Name
       value: ShwedenRock_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4b8c5518cde038d43829746948607a04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -172,15 +188,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.24707457
+      value: -0.2408
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.023660608
+      value: -0.0252
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.009687519
+      value: 0.0129
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
       propertyPath: m_LocalRotation.w
@@ -210,9 +226,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 614f8570742c1d14791ef34eb9ac7bbb, type: 2}
     - target: {fileID: 919132149155446097, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
       propertyPath: m_Name
       value: ShwedenRock_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3ca3752f24f35a54e958716671cdbb26, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -272,9 +296,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 614f8570742c1d14791ef34eb9ac7bbb, type: 2}
     - target: {fileID: 919132149155446097, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
       propertyPath: m_Name
       value: ShwedenRock_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d6739fbdba4f20a46ab17c6c567e15de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -334,9 +366,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 614f8570742c1d14791ef34eb9ac7bbb, type: 2}
     - target: {fileID: 919132149155446097, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
       propertyPath: m_Name
       value: ShwedenRock_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b54a9e8bb2482a74cb8291871a9d145b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -396,9 +436,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 614f8570742c1d14791ef34eb9ac7bbb, type: 2}
     - target: {fileID: 919132149155446097, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
       propertyPath: m_Name
       value: ShwedenRock_7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e5154ddf16034d4fb3c64e8462be6f9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -458,9 +506,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 614f8570742c1d14791ef34eb9ac7bbb, type: 2}
     - target: {fileID: 919132149155446097, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
       propertyPath: m_Name
       value: ShwedenRock_8
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 71deba29a72c19f4fbfc3900a5f09b75, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
