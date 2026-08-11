@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9d3c9fa273a3d80489cc7cf2070a3aa2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 382992
+  packageName: ATC - Arcade Train Controller
+  packageVersion: 1.0
+  assetPath: Packages/com.enigma23.common/Runtime/Collision/CollisionEffects.cs
+  uploadId: 968070

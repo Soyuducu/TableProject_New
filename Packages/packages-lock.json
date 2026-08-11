@@ -1,5 +1,22 @@
 {
   "dependencies": {
+    "com.enigma23.arcadetraincontroller": {
+      "version": "file:com.enigma23.arcadetraincontroller",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.enigma23.common": "1.0.0",
+        "com.unity.cinemachine": "3.1.7",
+        "com.unity.inputsystem": "1.19.0",
+        "com.unity.splines": "2.8.4"
+      }
+    },
+    "com.enigma23.common": {
+      "version": "file:com.enigma23.common",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.immersal.core": {
       "version": "file:../imdk-unity-main",
       "depth": 0,
@@ -83,6 +100,16 @@
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.cinemachine": {
+      "version": "3.1.7",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.splines": "2.0.0",
+        "com.unity.modules.imgui": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -171,8 +198,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.17.0",
-      "depth": 0,
+      "version": "1.19.0",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"

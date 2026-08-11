@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 845cbd338a18340809cc5354999d4bea
+AssetOrigin:
+  serializedVersion: 1
+  productId: 382992
+  packageName: ATC - Arcade Train Controller
+  packageVersion: 1.0
+  assetPath: Packages/com.enigma23.arcadetraincontroller/Runtime/Track/TrackPathManager.cs
+  uploadId: 968070

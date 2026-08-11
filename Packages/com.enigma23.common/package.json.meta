@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b55ccee748a172a46b5ea91d76c1f8cd
+PackageManifestImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 382992
+  packageName: ATC - Arcade Train Controller
+  packageVersion: 1.0
+  assetPath: Packages/com.enigma23.common/package.json
+  uploadId: 968070

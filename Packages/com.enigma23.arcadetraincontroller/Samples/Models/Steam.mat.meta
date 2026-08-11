@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 642b8474cd24ca04fa94bad7d7ad7f23
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 382992
+  packageName: ATC - Arcade Train Controller
+  packageVersion: 1.0
+  assetPath: Packages/com.enigma23.arcadetraincontroller/Samples/Models/Steam.mat
+  uploadId: 968070

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 3dd50b25f1c4e4507934e58b60f0b5ef
+AssetOrigin:
+  serializedVersion: 1
+  productId: 382992
+  packageName: ATC - Arcade Train Controller
+  packageVersion: 1.0
+  assetPath: Packages/com.enigma23.arcadetraincontroller/Runtime/Audio/TrainAudio.cs
+  uploadId: 968070

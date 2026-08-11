@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3796f7a8f0cc7124fb132940ac2b42f8
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 382992
+  packageName: ATC - Arcade Train Controller
+  packageVersion: 1.0
+  assetPath: Packages/com.enigma23.arcadetraincontroller/Samples/DemoScene/TrainControllerSampleScene.unity
+  uploadId: 968070

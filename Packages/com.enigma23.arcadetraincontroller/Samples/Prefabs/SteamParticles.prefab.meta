@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6cf0a0788cefd7546b9bfc1678f938a0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 382992
+  packageName: ATC - Arcade Train Controller
+  packageVersion: 1.0
+  assetPath: Packages/com.enigma23.arcadetraincontroller/Samples/Prefabs/SteamParticles.prefab
+  uploadId: 968070

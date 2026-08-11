@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f5549487311048e4fa8f0d2087426603
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 382992
+  packageName: ATC - Arcade Train Controller
+  packageVersion: 1.0
+  assetPath: Packages/com.enigma23.arcadetraincontroller/Samples/DemoScene/e23.GeneratedMeshes/MonoRailUpper_SplineMesh.asset
+  uploadId: 968070

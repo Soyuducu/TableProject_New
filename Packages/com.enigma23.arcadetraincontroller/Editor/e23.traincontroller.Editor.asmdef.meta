@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4c4973f1cc72f4348b10e5ee8fcaf611
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 382992
+  packageName: ATC - Arcade Train Controller
+  packageVersion: 1.0
+  assetPath: Packages/com.enigma23.arcadetraincontroller/Editor/e23.traincontroller.Editor.asmdef
+  uploadId: 968070

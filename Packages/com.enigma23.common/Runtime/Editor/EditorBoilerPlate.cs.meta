@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4dec2e580b73f7c479f48d9719e5b22f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 382992
+  packageName: ATC - Arcade Train Controller
+  packageVersion: 1.0
+  assetPath: Packages/com.enigma23.common/Runtime/Editor/EditorBoilerPlate.cs
+  uploadId: 968070

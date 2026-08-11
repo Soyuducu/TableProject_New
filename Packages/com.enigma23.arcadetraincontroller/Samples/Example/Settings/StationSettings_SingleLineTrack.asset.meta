@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: de2465545631e134c9e21ca93207cb81
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 382992
+  packageName: ATC - Arcade Train Controller
+  packageVersion: 1.0
+  assetPath: Packages/com.enigma23.arcadetraincontroller/Samples/Example/Settings/StationSettings_SingleLineTrack.asset
+  uploadId: 968070

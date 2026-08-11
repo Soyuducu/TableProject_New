@@ -1,0 +1,20 @@
+{
+    "name": "e23.traincontroller.Editor",
+    "rootNamespace": "",
+    "references": [
+        "e23.traincontroller",
+        "Unity.Mathematics",
+        "Unity.Splines"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

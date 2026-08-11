@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3aef456a528d78f438f0fd6ad7b18385
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 382992
+  packageName: ATC - Arcade Train Controller
+  packageVersion: 1.0
+  assetPath: Packages/com.enigma23.arcadetraincontroller/Samples/Prefabs/DieselCarriage.prefab
+  uploadId: 968070

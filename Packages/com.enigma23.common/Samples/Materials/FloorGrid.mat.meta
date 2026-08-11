@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5cf8f6442f72cc74289b4814931ea8d2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 382992
+  packageName: ATC - Arcade Train Controller
+  packageVersion: 1.0
+  assetPath: Packages/com.enigma23.common/Samples/Materials/FloorGrid.mat
+  uploadId: 968070

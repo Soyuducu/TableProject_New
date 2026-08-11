@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "name": "TrainInputActions",
+    "maps": [
+        {
+            "name": "Train",
+            "id": "ee5401c5-e7c7-40d0-8925-04873b4f973c",
+            "actions": [
+                {
+                    "name": "IncreaseThrottle",
+                    "type": "Button",
+                    "id": "0661b39e-bd53-4b69-813d-6ef17e59d335",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DecreaseThrottle",
+                    "type": "Button",
+                    "id": "722516a0-0797-4951-bebf-a8aaf7d52f73",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Stop",
+                    "type": "Button",
+                    "id": "09a71073-2d3e-4884-97b4-29f65094bc1f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "be09a3f6-4d02-4b03-9b7a-ae3f160abbc1",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "IncreaseThrottle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "78f02207-b004-4e4b-9c5d-3ec65824c999",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DecreaseThrottle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3a0b57a3-4461-4059-a69b-7edee64b50be",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Stop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

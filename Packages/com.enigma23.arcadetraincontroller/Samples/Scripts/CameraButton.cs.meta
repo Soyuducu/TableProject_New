@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 70e406ab5a10e0c4da31927eb465e67e
+AssetOrigin:
+  serializedVersion: 1
+  productId: 382992
+  packageName: ATC - Arcade Train Controller
+  packageVersion: 1.0
+  assetPath: Packages/com.enigma23.arcadetraincontroller/Samples/Scripts/CameraButton.cs
+  uploadId: 968070
