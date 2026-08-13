@@ -553,7 +553,7 @@ MonoBehaviour:
   - {fileID: -6289266178594967292}
   - {fileID: -7273763955304585612}
   - {fileID: -544185970889091572}
-  - {fileID: 390345329808852951}
+  - {fileID: 1015987917446414383}
   - {fileID: -6217121109386056946}
   - {fileID: -9030554058458240860}
   - {fileID: 6604997839126901290}
@@ -1142,7 +1142,7 @@ MonoBehaviour:
   m_Name: WebGL
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -5176402689607772853}
+  - {fileID: -44456621715322366}
   customLoaderName: 
   m_renderMode: 1
   m_latencyOptimization: 0
@@ -1200,7 +1200,7 @@ MonoBehaviour:
   - {fileID: -6005412388285168662}
   - {fileID: 2665921264731313898}
   - {fileID: 12152071175798150}
-  - {fileID: 6109094249492930838}
+  - {fileID: 4460618712646442874}
   - {fileID: 1258315470049827836}
   - {fileID: -5056973460596210777}
   - {fileID: -6129981949265699467}
