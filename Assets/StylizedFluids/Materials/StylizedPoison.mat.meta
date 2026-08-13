@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7336d19acd9d3e3469668e883eaca2ec
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 385978
+  packageName: Stylized Fluids Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylizedFluids/Materials/StylizedPoison.mat
+  uploadId: 956764

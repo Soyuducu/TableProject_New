@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ccbbf06ec2bc3284fb1c1103cf64e259
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 385978
+  packageName: Stylized Fluids Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylizedFluids/Materials/StylizedMagma.mat
+  uploadId: 956764

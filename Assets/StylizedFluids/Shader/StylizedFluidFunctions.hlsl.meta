@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c63accd3c5d063844ab106eabc48e339
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 385978
+  packageName: Stylized Fluids Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylizedFluids/Shader/StylizedFluidFunctions.hlsl
+  uploadId: 956764

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d29d091793e6d6b4e97c622a6647feba
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 385978
+  packageName: Stylized Fluids Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylizedFluids/DemoScene/Scenes/DemoScene.unity
+  uploadId: 956764

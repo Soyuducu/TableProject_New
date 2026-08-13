@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4230530178964374732
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StylizedMagicPond
+  m_Shader: {fileID: 4800000, guid: 2844a3fc566935545af7239337c506e4, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _INTERSECTION_PATTERN_TYPE
+  - _SURFACE_PATTERN_TYPE_PATTERN
+  - _USE_NORMAL_MAP
+  - _WAVES
+  m_InvalidKeywords:
+  - _RECALCULATENORMALS_ON
+  - _SURFACE_PATTERN_TYPE_PROCEDURAL
+  - _WORLDSPACEUVS_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 6d837ca5121ca0a4e9a918b95b8a7882, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubsurfaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SurfaceTex:
+        m_Texture: {fileID: 2800000, guid: 148ec3f82619119448d9d95fd1790725, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Depth: 0.25
+    - _FlowDirection: 0
+    - _FlowSpeed: 1
+    - _INTERSECTION_PATTERN_TYPE: 1
+    - _IntersectionPattern: 0
+    - _IntersectionScale: 1
+    - _IntersectionSpeed: 1
+    - _LineDensity: 0
+    - _NormalScale: 1
+    - _NormalStrength: 0.01
+    - _Parallax: 0.025
+    - _RecalculateNormals: 1
+    - _SUBSURFACE_PATTERN_TYPE: 0
+    - _SURFACE_PATTERN_TYPE: 2
+    - _SubsurfacePattern: 2
+    - _SubsurfaceScale: 0.39
+    - _SubsurfaceSpeed: 1
+    - _SurfacePattern: 4
+    - _SurfaceScale: 0.25
+    - _SurfaceSpeed: 1
+    - _USE_NORMAL_MAP: 1
+    - _WAVES: 1
+    - _WaveSpeed: 1
+    - _WaveSteepness: 0.25
+    - _Wavelength: 5
+    - _WorldSpaceUVs: 1
+    m_Colors:
+    - _DeepColor: {r: 0.0012046434, g: 0, b: 0.011792451, a: 1}
+    - _DeepColorHSV: {r: 0.6900645, g: 1, b: 0.11086475, a: 1}
+    - _IntersectionColor: {r: 1, g: 0.92158204, b: 0.19806935, a: 1}
+    - _IntersectionColorHSV: {r: 0.15530303, g: 0.5176471, b: 1, a: 1}
+    - _IntersectionCutoff: {r: 0.517067, g: 1.2413793, b: 0, a: 0}
+    - _LODFadeRange: {r: 25, g: 50, b: 0, a: 0}
+    - _ShallowColor: {r: 1, g: 0.8656721, b: 0.4575472, a: 1}
+    - _ShallowColorHSV: {r: 0.13169934, g: 0.29332912, b: 1, a: 1}
+    - _SubsurfaceColor: {r: 0.105, g: 0.02470588, b: 0.05867648, a: 0.31764707}
+    - _SubsurfaceColorHSV: {r: 0.9125904, g: 0.5224267, b: 0.35749114, a: 0.31764707}
+    - _SubsurfaceCutoff: {r: -1.3413043, g: 0.923913, b: 0, a: 0}
+    - _SurfaceColor: {r: 1, g: 0.91818136, b: 0.2028302, a: 1}
+    - _SurfaceColorHSV: {r: 0.15467387, g: 0.5123027, b: 1, a: 1}
+    - _SurfaceCutoff: {r: -0.511788, g: 0.5925597, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

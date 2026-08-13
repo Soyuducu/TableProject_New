@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 48d7e1083830367429c0b63d89e705de
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 385978
+  packageName: Stylized Fluids Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylizedFluids/DemoScene/Prefabs/FluidPlane.prefab
+  uploadId: 956764

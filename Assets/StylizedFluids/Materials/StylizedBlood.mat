@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4230530178964374732
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StylizedBlood
+  m_Shader: {fileID: 4800000, guid: 2844a3fc566935545af7239337c506e4, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _INTERSECTION_PATTERN_TYPE
+  - _SUBSURFACE_PATTERN_TYPE
+  - _SURFACE_PATTERN_TYPE_FLOWMAP
+  - _WAVES
+  m_InvalidKeywords:
+  - _RECALCULATENORMALS_ON
+  - _SURFACE_PATTERN_TYPE_PROCEDURAL
+  - _WORLDSPACEUVS_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 6d837ca5121ca0a4e9a918b95b8a7882, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 8a08fc6ba72f9f4448e08c6dd46f8a4b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubsurfaceTex:
+        m_Texture: {fileID: 2800000, guid: 148ec3f82619119448d9d95fd1790725, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SurfaceTex:
+        m_Texture: {fileID: 2800000, guid: 148ec3f82619119448d9d95fd1790725, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Depth: 0.5
+    - _FlowDirection: 0
+    - _FlowSpeed: 1
+    - _INTERSECTION_PATTERN_TYPE: 1
+    - _IntersectionPattern: 5
+    - _IntersectionScale: 0.43
+    - _IntersectionSpeed: 0.1
+    - _LineDensity: 0
+    - _NormalScale: 1
+    - _NormalStrength: 0.01
+    - _Parallax: 0.025
+    - _RecalculateNormals: 1
+    - _SUBSURFACE_PATTERN_TYPE: 1
+    - _SURFACE_PATTERN_TYPE: 0
+    - _SubsurfacePattern: 5
+    - _SubsurfaceScale: 0.15
+    - _SubsurfaceSpeed: 0.5
+    - _SurfacePattern: 0
+    - _SurfaceScale: 0.2
+    - _SurfaceSpeed: 0.5
+    - _USE_NORMAL_MAP: 0
+    - _WAVES: 1
+    - _WaveSpeed: 1
+    - _WaveSteepness: 0.25
+    - _Wavelength: 5
+    - _WorldSpaceUVs: 1
+    m_Colors:
+    - _DeepColor: {r: 0.0038325484, g: 0.0008161429, b: 0.00066888815, a: 1}
+    - _DeepColorHSV: {r: 0.007887822, g: 0.82306075, b: 0.048841804, a: 1}
+    - _IntersectionColor: {r: 0.0026533017, g: 0.00023779584, b: 0.00051191804, a: 1}
+    - _IntersectionColorHSV: {r: 0.98108596, g: 0.9103774, b: 0.034280658, a: 1}
+    - _IntersectionCutoff: {r: 0.517067, g: 1.2413793, b: 0, a: 0}
+    - _LODFadeRange: {r: 25, g: 50, b: 0, a: 0}
+    - _ShallowColor: {r: 0.0020636786, g: 0.00016548368, b: 0.00037776018, a: 1}
+    - _ShallowColorHSV: {r: 0.98136157, g: 0.91981137, b: 0.026662728, a: 1}
+    - _SubsurfaceColor: {r: 0.008, g: 0.00108, b: 0.00108, a: 0.6745098}
+    - _SubsurfaceColorHSV: {r: 0, g: 0.8379452, b: 0.08610419, a: 0.6745098}
+    - _SubsurfaceCutoff: {r: -1.1637931, g: 1.0534482, b: 0, a: 0}
+    - _SurfaceColor: {r: 0.023875, g: 0.0012892543, b: 0.0012892504, a: 1}
+    - _SurfaceColorHSV: {r: 0.000000055554754, g: 0.90057445, b: 0.16753355, a: 1}
+    - _SurfaceCutoff: {r: 0.51034474, g: 0.6637931, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

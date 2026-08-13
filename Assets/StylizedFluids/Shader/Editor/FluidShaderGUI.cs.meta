@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: fb75629fa1be1e04db99b2568f077fcf
+AssetOrigin:
+  serializedVersion: 1
+  productId: 385978
+  packageName: Stylized Fluids Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylizedFluids/Shader/Editor/FluidShaderGUI.cs
+  uploadId: 956764

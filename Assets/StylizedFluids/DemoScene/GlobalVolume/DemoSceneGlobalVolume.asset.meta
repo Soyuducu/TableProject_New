@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 84d7ef29690ca184f8abbf4fef382641
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 385978
+  packageName: Stylized Fluids Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylizedFluids/DemoScene/GlobalVolume/DemoSceneGlobalVolume.asset
+  uploadId: 956764

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2844a3fc566935545af7239337c506e4
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 385978
+  packageName: Stylized Fluids Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylizedFluids/Shader/StylizedFluids.shader
+  uploadId: 956764

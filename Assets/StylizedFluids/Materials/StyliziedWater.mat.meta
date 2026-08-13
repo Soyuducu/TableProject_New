@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 53a47232594dbad468af0d7e48795a02
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 385978
+  packageName: Stylized Fluids Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylizedFluids/Materials/StyliziedWater.mat
+  uploadId: 956764

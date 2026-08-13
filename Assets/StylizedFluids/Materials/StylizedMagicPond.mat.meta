@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7b734ee074385a24c947bf225b09900f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 385978
+  packageName: Stylized Fluids Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylizedFluids/Materials/StylizedMagicPond.mat
+  uploadId: 956764

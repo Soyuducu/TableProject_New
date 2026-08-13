@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 45a1b8ac3af21d94baf61d66aa95b39b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 385978
+  packageName: Stylized Fluids Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylizedFluids/DemoScene/Prefabs/Rock.prefab
+  uploadId: 956764

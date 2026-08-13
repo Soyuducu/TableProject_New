@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8c0a3087732a66743b950d275693c70b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 385978
+  packageName: Stylized Fluids Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylizedFluids/DemoScene/Materials/Rocks.mat
+  uploadId: 956764
