@@ -26,8 +26,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _SUBSURFACE_PATTERN_TYPE
-  - _SURFACE_PATTERN_TYPE_PATTERN
-  - _WAVES
+  - _SURFACE_PATTERN_TYPE_TEXTURE
   m_InvalidKeywords:
   - _RECALCULATENORMALS_ON
   - _SURFACE_PATTERN_TYPE_PROCEDURAL
@@ -61,7 +60,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Depth: 0.5
+    - _Depth: 0.01
     - _FlowDirection: 0
     - _FlowSpeed: 1
     - _INTERSECTION_PATTERN_TYPE: 0
@@ -71,18 +70,18 @@ Material:
     - _LineDensity: 7.47
     - _NormalScale: 1
     - _NormalStrength: 0.167
-    - _Parallax: 0.025
+    - _Parallax: 0.005
     - _RecalculateNormals: 1
     - _SUBSURFACE_PATTERN_TYPE: 1
-    - _SURFACE_PATTERN_TYPE: 2
-    - _SubsurfacePattern: 6
-    - _SubsurfaceScale: 0.5
-    - _SubsurfaceSpeed: 1
-    - _SurfacePattern: 4
-    - _SurfaceScale: 0.25
-    - _SurfaceSpeed: 1
+    - _SURFACE_PATTERN_TYPE: 1
+    - _SubsurfacePattern: 0
+    - _SubsurfaceScale: 9
+    - _SubsurfaceSpeed: 0
+    - _SurfacePattern: 1
+    - _SurfaceScale: 9
+    - _SurfaceSpeed: 0
     - _USE_NORMAL_MAP: 0
-    - _WAVES: 1
+    - _WAVES: 0
     - _WaveSpeed: 1
     - _WaveSteepness: 0.49
     - _Wavelength: 5
@@ -101,5 +100,6 @@ Material:
     - _SubsurfaceCutoff: {r: 0.54113925, g: 0.67405057, b: 0, a: 0}
     - _SurfaceColor: {r: 0.29019606, g: 1.7333333, b: 1.3240914, a: 1}
     - _SurfaceColorHSV: {r: 0.46522102, g: 0.55216134, b: 1.2840525, a: 1}
-    - _SurfaceCutoff: {r: -0.65648854, g: 0.64694655, b: 0, a: 0}
+    - _SurfaceCutoff: {r: -0.90445846, g: 0.8320976, b: 0, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

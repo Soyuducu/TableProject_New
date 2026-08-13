@@ -26,8 +26,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _SUBSURFACE_PATTERN_TYPE
-  - _SURFACE_PATTERN_TYPE_FLOWMAP
-  - _WAVES
+  - _SURFACE_PATTERN_TYPE_TEXTURE
   m_InvalidKeywords:
   - _RECALCULATENORMALS_ON
   - _SURFACE_PATTERN_TYPE_PROCEDURAL
@@ -74,15 +73,15 @@ Material:
     - _Parallax: 0.025
     - _RecalculateNormals: 1
     - _SUBSURFACE_PATTERN_TYPE: 1
-    - _SURFACE_PATTERN_TYPE: 0
-    - _SubsurfacePattern: 5
+    - _SURFACE_PATTERN_TYPE: 1
+    - _SubsurfacePattern: 0
     - _SubsurfaceScale: 0.15
     - _SubsurfaceSpeed: 1
-    - _SurfacePattern: 0
+    - _SurfacePattern: 1
     - _SurfaceScale: 0.2
     - _SurfaceSpeed: 1
     - _USE_NORMAL_MAP: 0
-    - _WAVES: 1
+    - _WAVES: 0
     - _WaveSpeed: 1
     - _WaveSteepness: 0.25
     - _Wavelength: 5
