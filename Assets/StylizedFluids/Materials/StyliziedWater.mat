@@ -61,7 +61,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Depth: 0.01
-    - _FlowDirection: 3.35
+    - _FlowDirection: 3.08
     - _FlowSpeed: 1
     - _INTERSECTION_PATTERN_TYPE: 0
     - _IntersectionPattern: 6
@@ -76,10 +76,10 @@ Material:
     - _SURFACE_PATTERN_TYPE: 1
     - _SubsurfacePattern: 0
     - _SubsurfaceScale: 50
-    - _SubsurfaceSpeed: 0
+    - _SubsurfaceSpeed: 0.02
     - _SurfacePattern: 1
     - _SurfaceScale: 25
-    - _SurfaceSpeed: 0
+    - _SurfaceSpeed: 0.01
     - _USE_NORMAL_MAP: 0
     - _WAVES: 0
     - _WaveSpeed: 1

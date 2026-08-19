@@ -8908,7 +8908,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6601010932790ff409eda8686328ddce, type: 3}
       propertyPath: m_Name
-      value: Narvik 1
+      value: Narvik
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6601010932790ff409eda8686328ddce, type: 3}
       propertyPath: m_StaticEditorFlags
