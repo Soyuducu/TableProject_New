@@ -27,6 +27,7 @@ Material:
   m_ValidKeywords:
   - _SUBSURFACE_PATTERN_TYPE
   - _SURFACE_PATTERN_TYPE_TEXTURE
+  - _USE_NORMAL_MAP
   m_InvalidKeywords:
   - _RECALCULATENORMALS_ON
   - _SURFACE_PATTERN_TYPE_PROCEDURAL
@@ -67,8 +68,8 @@ Material:
     - _IntersectionScale: 1
     - _IntersectionSpeed: 1
     - _LineDensity: 7.47
-    - _NormalScale: 1
-    - _NormalStrength: 0.167
+    - _NormalScale: 2
+    - _NormalStrength: 0.204
     - _Parallax: 0.005
     - _RecalculateNormals: 1
     - _SUBSURFACE_PATTERN_TYPE: 1
@@ -79,7 +80,7 @@ Material:
     - _SurfacePattern: 1
     - _SurfaceScale: 3
     - _SurfaceSpeed: 0.02
-    - _USE_NORMAL_MAP: 0
+    - _USE_NORMAL_MAP: 1
     - _WAVES: 0
     - _WaveSpeed: 1
     - _WaveSteepness: 0.49
