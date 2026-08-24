@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Cube
   - DummyRoot
+  - Missile
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Trees
+  - Trolls
   - ARDK_FusedDepth
   - SmallProps
   - ignorable
