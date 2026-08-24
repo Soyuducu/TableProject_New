@@ -58,8 +58,7 @@ ModelImporter:
       - time: 0
         functionName: BackgroundSound
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: d9ea85b6911f3f34395d8b3f96ebd28c,
-          type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: d9ea85b6911f3f34395d8b3f96ebd28c, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
@@ -102,40 +101,35 @@ ModelImporter:
       - time: 0.084154285
         functionName: waterfalling
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: d9ea85b6911f3f34395d8b3f96ebd28c,
-          type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: d9ea85b6911f3f34395d8b3f96ebd28c, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.08461026
         functionName: PlayEffectB
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 5edada5b9c9be97408bb4a9ad6b9ecdc,
-          type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: 5edada5b9c9be97408bb4a9ad6b9ecdc, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.19387072
         functionName: roar
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: d9ea85b6911f3f34395d8b3f96ebd28c,
-          type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: d9ea85b6911f3f34395d8b3f96ebd28c, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.34310457
         functionName: roar
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: d9ea85b6911f3f34395d8b3f96ebd28c,
-          type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: d9ea85b6911f3f34395d8b3f96ebd28c, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.55629575
         functionName: roar
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: d9ea85b6911f3f34395d8b3f96ebd28c,
-          type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: d9ea85b6911f3f34395d8b3f96ebd28c, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
@@ -149,16 +143,14 @@ ModelImporter:
       - time: 0.7908061
         functionName: waterfalling
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: d9ea85b6911f3f34395d8b3f96ebd28c,
-          type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: d9ea85b6911f3f34395d8b3f96ebd28c, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.7908061
         functionName: PlayEffectA
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 5edada5b9c9be97408bb4a9ad6b9ecdc,
-          type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: 5edada5b9c9be97408bb4a9ad6b9ecdc, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
@@ -233,7 +225,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
