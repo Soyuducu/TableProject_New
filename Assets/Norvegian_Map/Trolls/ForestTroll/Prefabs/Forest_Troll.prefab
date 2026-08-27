@@ -1,68 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &11798100905861412
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7059428652228000440}
-  m_Layer: 0
-  m_Name: raven_l_DigitIV_3-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7059428652228000440
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 11798100905861412}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.017411083, y: -2.9802322e-10, z: 0}
-  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3212223891732246994}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &48442944156633679
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 785520866825254615}
-  m_Layer: 0
-  m_Name: raven_l_DigitI_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &785520866825254615
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 48442944156633679}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.7065855, y: 0.70762765, z: -0.00000028267897, w: -0.00000028226268}
-  m_LocalPosition: {x: -0.01001938, y: -0.003091095, z: 0.001498301}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2532125339310653481}
-  m_Father: {fileID: 8395849181241925674}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &59663548269349269
 GameObject:
   m_ObjectHideFlags: 0
@@ -72,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4965645735251372344}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Knee_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,228 +32,6 @@ Transform:
   - {fileID: 7998461571356939290}
   m_Father: {fileID: 8925274011934477620}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &113716494939650508
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8020443132243075792}
-  m_Layer: 0
-  m_Name: raven_l_EyelidUpper_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8020443132243075792
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113716494939650508}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.18032002, y: -0.5491674, z: -0.25740328, w: 0.77436656}
-  m_LocalPosition: {x: -0.04053314, y: 0.0037138367, z: -0.020536866}
-  m_LocalScale: {x: 1.0000004, y: 0.99999994, z: 0.9999998}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6991178869517761663}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &124542159239326835
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4570781126685006467}
-  m_Layer: 0
-  m_Name: raven_TailFeather_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4570781126685006467
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 124542159239326835}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00000007907031, y: -0.000000028668788, z: -0.033059422, w: 0.9994534}
-  m_LocalPosition: {x: -0.17973728, y: -0.000000076293944, z: 0.000000019073486}
-  m_LocalScale: {x: 0.9999999, y: 1.0000004, z: 1.0000002}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6267829036949941352}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &140614586550522939
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4439299816151332529}
-  m_Layer: 0
-  m_Name: raven_r_Wing_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4439299816151332529
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 140614586550522939}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.03129135, y: 0.00072201865, z: 0.9912948, w: -0.12788686}
-  m_LocalPosition: {x: 0.12532534, y: -0.0000013923644, z: 0.000000009536743}
-  m_LocalScale: {x: 1.0000005, y: 1.0000001, z: 1.0000002}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8425632645930607058}
-  m_Father: {fileID: 521007421561846231}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &324356441003630733
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5042503282986246370}
-  m_Layer: 0
-  m_Name: raven_r_TailFeather_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5042503282986246370
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 324356441003630733}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.07208536, y: -0.009696382, z: 0.99721926, w: 0.0162315}
-  m_LocalPosition: {x: -0.17628752, y: 0.007665596, z: 0.027340021}
-  m_LocalScale: {x: 0.9999999, y: 1.0000004, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6267829036949941352}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &489364437875221842
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3569622928938788596}
-  m_Layer: 0
-  m_Name: raven_l_DigitII_1_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3569622928938788596
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 489364437875221842}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.22572488, y: 0.22645402, z: -0.6701247, w: 0.6698506}
-  m_LocalPosition: {x: -0.010022785, y: -0.0007825237, z: 0.00952054}
-  m_LocalScale: {x: 0.99999994, y: 0.9999998, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1349927360919926957}
-  m_Father: {fileID: 8395849181241925674}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &569506720903149281
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8456329407461138803}
-  m_Layer: 0
-  m_Name: raven_TailFeather_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8456329407461138803
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 569506720903149281}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.000000032494523, y: -0.000000053206943, z: -0.033059284, w: 0.9994534}
-  m_LocalPosition: {x: -0.1797373, y: -0.000000076293944, z: 0.000000021420146}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1242035606636478752}
-  - {fileID: 7769826309787882725}
-  - {fileID: 2517678953684608412}
-  m_Father: {fileID: 6267829036949941352}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &595080325376645819
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8763652449224156021}
-  m_Layer: 0
-  m_Name: raven_r_EyelidUpper-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8763652449224156021
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 595080325376645819}
-  serializedVersion: 2
-  m_LocalRotation: {x: 1.332268e-15, y: 0.000000014901163, z: -0.00000008940698, w: 1}
-  m_LocalPosition: {x: 0.009320049, y: 0.000000009536743, z: 0.000000038146972}
-  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5715929465508227828}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &682710053620837534
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,7 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1301768390405771285}
   - component: {fileID: 8864621282952227189}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FTrollEyesLow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -407,259 +122,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00021974463, y: 0.000012904406, z: -0.014967938}
     m_Extent: {x: 0.0045589022, y: 0.004583537, z: 0.019563716}
   m_DirtyAABB: 0
---- !u!1 &710843775895659230
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3571137452826356464}
-  m_Layer: 0
-  m_Name: raven_r_Metacarpus_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3571137452826356464
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710843775895659230}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.050640497, y: 0.005085191, z: 0.99281055, w: -0.10833748}
-  m_LocalPosition: {x: 0.12532386, y: 0, z: -0.000000009536743}
-  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 831408777462821643}
-  m_Father: {fileID: 521007421561846231}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &768230149620426291
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8997464922378469329}
-  m_Layer: 0
-  m_Name: raven_r_DigitIII_3-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8997464922378469329
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768230149620426291}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.020008307, y: 0, z: 0.0000000047683715}
-  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2742103818392808858}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &833295827070215112
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5606075001828087486}
-  m_Layer: 0
-  m_Name: raven_l_TailFeather_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5606075001828087486
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833295827070215112}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.009696028, y: -0.072084576, z: -0.0162311, w: 0.9972193}
-  m_LocalPosition: {x: -0.17628744, y: 0.007665596, z: -0.02733797}
-  m_LocalScale: {x: 0.99999994, y: 1.0000004, z: 1.0000005}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6267829036949941352}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &866656077106371815
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1634678587870949499}
-  m_Layer: 0
-  m_Name: raven_r_DigitIV_3_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1634678587870949499
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866656077106371815}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.000002622604, y: 0.00000016432513, z: -4.3095974e-13, w: 1}
-  m_LocalPosition: {x: 0.011310463, y: -0.000000038146972, z: 0.000000028610229}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 729800931729293507}
-  m_Father: {fileID: 277815048882002822}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &889728946708321932
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5951207411317244890}
-  m_Layer: 0
-  m_Name: raven_r_Feather1_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5951207411317244890
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889728946708321932}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0000012814997, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1474785, y: 0.000000114440915, z: -0.000000114440915}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1497130574980612930}
-  m_Father: {fileID: 1477778549746439826}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &911205086947107109
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 336505372521585703}
-  m_Layer: 0
-  m_Name: raven_l_Knee_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &336505372521585703
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 911205086947107109}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.000000038300804, y: -0.000000052035396, z: 0.592787, w: 0.80535924}
-  m_LocalPosition: {x: -0.058345113, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8515901967096851646}
-  m_Father: {fileID: 4191563087733317832}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &920712328589803411
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8425632645930607058}
-  m_Layer: 0
-  m_Name: raven_r_Wing-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8425632645930607058
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 920712328589803411}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.000000044703494, y: -1.03250775e-14, z: -0.00000023096801, w: 1}
-  m_LocalPosition: {x: 0.30772725, y: -0.000000104904174, z: -0.000000019073486}
-  m_LocalScale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4439299816151332529}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &965878726323440772
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5086060944067869842}
-  m_Layer: 0
-  m_Name: raven_Beak_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5086060944067869842
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965878726323440772}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.000009423833, y: 0.000002868758, z: 0.34516275, w: 0.9385429}
-  m_LocalPosition: {x: -0.042949256, y: 0.000000009536743, z: 3.2346178e-11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8752645266282693743}
-  m_Father: {fileID: 6991178869517761663}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &986499484938014897
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,7 +131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4017073702936105701}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: JawEnd_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -700,7 +162,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5716620403748878734}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Toes_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -732,7 +194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3383197437373664761}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -755,198 +217,6 @@ Transform:
   - {fileID: 4172909041598886123}
   m_Father: {fileID: 6428477100502246870}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1181336580119363748
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5234688543534129097}
-  m_Layer: 0
-  m_Name: raven_r_Humerus_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5234688543534129097
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181336580119363748}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.9871087, y: -0.12523991, z: 0.074771956, w: 0.065883435}
-  m_LocalPosition: {x: -0.20510875, y: 0.027340107, z: 0.059379954}
-  m_LocalScale: {x: 1.0000002, y: 0.9999999, z: 1.0000002}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7534003122410568675}
-  m_Father: {fileID: 2842574597944101991}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1190445285532416058
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7674317956698478943}
-  m_Layer: 0
-  m_Name: raven_r_DigitIII_2_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7674317956698478943
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190445285532416058}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.00000015098136, z: -0, w: 1}
-  m_LocalPosition: {x: 0.015181671, y: -0.000000021755694, z: -0.0000000047683715}
-  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2742103818392808858}
-  m_Father: {fileID: 7161626641240436063}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1206642034504038620
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1477778549746439826}
-  m_Layer: 0
-  m_Name: raven_r_Metacarpus_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1477778549746439826
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206642034504038620}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.05064046, y: 0.005085353, z: 0.99281055, w: -0.108337484}
-  m_LocalPosition: {x: 0.12532388, y: 0.000000038146972, z: 0.000000114440915}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5951207411317244890}
-  - {fileID: 7649396690903486343}
-  m_Father: {fileID: 7534003122410568675}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1208430460687054435
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1786553236149346822}
-  m_Layer: 0
-  m_Name: raven_l_Ulna_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1786553236149346822
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208430460687054435}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.03842346, y: 0.011774996, z: 0.9559923, w: 0.29062653}
-  m_LocalPosition: {x: -0.1368326, y: -0.000000009536743, z: 0.000000009536743}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 9144917699285015163}
-  - {fileID: 6490926829874855942}
-  m_Father: {fileID: 57487608051579430}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1250370760832386845
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2002685693189207466}
-  m_Layer: 0
-  m_Name: raven_r_DigitII_2-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2002685693189207466
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250370760832386845}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.017208917, y: 0.000000002682209, z: 0}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5794154515639160941}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1262881428552603529
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1412140357881962466}
-  m_Layer: 0
-  m_Name: raven_l_DigitII_2-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1412140357881962466
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1262881428552603529}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.000000043575692, y: -0.00000010455738, z: 0.00000019464639, w: 1}
-  m_LocalPosition: {x: -0.017208904, y: -0.000000007152557, z: 0}
-  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1349927360919926957}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1333513065283022553
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,7 +226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9194313907501049770}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Knee_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -988,7 +258,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 538564497865505976}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger4_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1010,149 +280,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7462385296730980561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1450893537904069871
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8029266479782637589}
-  - component: {fileID: 1015745739078802310}
-  m_Layer: 0
-  m_Name: Raven_mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8029266479782637589
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450893537904069871}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8304489163566128485}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &1015745739078802310
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450893537904069871}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 3
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 807b8206b7ea3f44ea2eb4988a9a6018, type: 2}
-  - {fileID: 2100000, guid: 9563bae71c21eba49a5bab2425042015, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -4335414550348228329, guid: 280842509c43612488fa33ab7c831e97, type: 3}
-  m_Bones:
-  - {fileID: 6991178869517761663}
-  - {fileID: 5086060944067869842}
-  - {fileID: 2348874767571511765}
-  - {fileID: 5715929465508227828}
-  - {fileID: 4860319508177375}
-  - {fileID: 8784260079188091075}
-  - {fileID: 8184190906927627839}
-  - {fileID: 3125423127123926807}
-  - {fileID: 8757199439546074076}
-  - {fileID: 2842574597944101991}
-  - {fileID: 6267829036949941352}
-  - {fileID: 1242035606636478752}
-  - {fileID: 7769826309787882725}
-  - {fileID: 8456329407461138803}
-  - {fileID: 1463179326013735201}
-  - {fileID: 57487608051579430}
-  - {fileID: 336505372521585703}
-  - {fileID: 4191563087733317832}
-  - {fileID: 3736386780427478824}
-  - {fileID: 8515901967096851646}
-  - {fileID: 3569622928938788596}
-  - {fileID: 8395849181241925674}
-  - {fileID: 6672267814088200007}
-  - {fileID: 785520866825254615}
-  - {fileID: 5719356847762808450}
-  - {fileID: 3216162464796638240}
-  - {fileID: 1349927360919926957}
-  - {fileID: 1721247365203279842}
-  - {fileID: 1786553236149346822}
-  - {fileID: 6490926829874855942}
-  - {fileID: 9144917699285015163}
-  - {fileID: 6266290061221137979}
-  - {fileID: 7184778918200342599}
-  - {fileID: 7541317204591456408}
-  - {fileID: 7596952471116480588}
-  - {fileID: 3042408606508759413}
-  - {fileID: 3212223891732246994}
-  - {fileID: 8903937659197848925}
-  - {fileID: 8955293266188370196}
-  - {fileID: 1218835392760148992}
-  - {fileID: 7161626641240436063}
-  - {fileID: 647138002545277438}
-  - {fileID: 3807360651732557419}
-  - {fileID: 277815048882002822}
-  - {fileID: 5794154515639160941}
-  - {fileID: 521007421561846231}
-  - {fileID: 4439299816151332529}
-  - {fileID: 3571137452826356464}
-  - {fileID: 831408777462821643}
-  - {fileID: 7527787389276273872}
-  - {fileID: 8359607702337123334}
-  - {fileID: 2742103818392808858}
-  - {fileID: 7674317956698478943}
-  - {fileID: 1634678587870949499}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 2842574597944101991}
-  m_AABB:
-    m_Center: {x: -0.01987347, y: -0.1211531, z: -0.000000029802322}
-    m_Extent: {x: 0.36805728, y: 0.39775264, z: 0.28451982}
-  m_DirtyAABB: 0
 --- !u!1 &1454522925982210847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1162,7 +289,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2984712581183247159}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ankle_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1185,70 +312,6 @@ Transform:
   - {fileID: 5716620403748878734}
   m_Father: {fileID: 9194313907501049770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1537260118031373770
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1463179326013735201}
-  m_Layer: 0
-  m_Name: raven_r_Thigh_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1463179326013735201
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1537260118031373770}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00000028643828, y: 0.00000044963346, z: -0.8577435, w: 0.5140779}
-  m_LocalPosition: {x: -0.0054688645, y: -0.014205169, z: 0.04040001}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3736386780427478824}
-  m_Father: {fileID: 2842574597944101991}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1553623863793316260
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3042408606508759413}
-  m_Layer: 0
-  m_Name: raven_l_DigitIII_2_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3042408606508759413
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553623863793316260}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.000000218075, y: 5.1993132e-14, z: -0.00000023841858, w: 1}
-  m_LocalPosition: {x: -0.015181683, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7596952471116480588}
-  m_Father: {fileID: 6672267814088200007}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1575388272037536804
 GameObject:
   m_ObjectHideFlags: 0
@@ -1258,7 +321,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1722455957590454416}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ToesEnd_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1289,7 +352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2924785062571726513}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RingFinger3_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1321,7 +384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4723754722456071822}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hip_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1353,7 +416,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7784372803011199920}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ThumbFinger2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1386,7 +449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5608750595034720189}
   - component: {fileID: 2408125873583034968}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FTrollFur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1485,37 +548,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.018213026, y: 0.046710573, z: -0.0062430426}
     m_Extent: {x: 0.25687534, y: 0.17853284, z: 0.21305683}
   m_DirtyAABB: 0
---- !u!1 &1951356418942135880
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 707193685243251180}
-  m_Layer: 0
-  m_Name: raven_r_EyelidUpper_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &707193685243251180
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951356418942135880}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.5491673, y: 0.18030834, z: 0.77437145, w: 0.25739673}
-  m_LocalPosition: {x: -0.04053337, y: 0.0037133503, z: 0.02053987}
-  m_LocalScale: {x: 0.9999998, y: 1.0000001, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6991178869517761663}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2031308999696568360
 GameObject:
   m_ObjectHideFlags: 0
@@ -1525,7 +557,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4360634559062508459}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1548,256 +580,6 @@ Transform:
   - {fileID: 4675442142177225143}
   m_Father: {fileID: 278248014996192256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2034465019359602161
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8446908179155967757}
-  m_Layer: 0
-  m_Name: raven_l_EyelidLower_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8446908179155967757
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034465019359602161}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.17206466, y: -0.5518098, z: 0.24006861, w: 0.7799147}
-  m_LocalPosition: {x: -0.04053314, y: 0.0037138653, z: -0.020536903}
-  m_LocalScale: {x: 1, y: 1.0000002, z: 0.99999976}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6991178869517761663}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2092507641188015430
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2517678953684608412}
-  m_Layer: 0
-  m_Name: raven_TailFeather-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2517678953684608412
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2092507641188015430}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.000000044703484, w: 1}
-  m_LocalPosition: {x: -0.15617311, y: 0.000000038146972, z: 0}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8456329407461138803}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2213374602919418641
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8532347448143277229}
-  m_Layer: 0
-  m_Name: raven_l_DigitIII_3-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8532347448143277229
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2213374602919418641}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00000008425559, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.02000832, y: -0.000000004470348, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7596952471116480588}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2250545519998808412
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5719356847762808450}
-  m_Layer: 0
-  m_Name: raven_l_DigitIV_1_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5719356847762808450
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2250545519998808412}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.22921683, y: -0.22955538, z: -0.66837335, w: 0.66935873}
-  m_LocalPosition: {x: -0.0100215655, y: -0.0015790123, z: -0.007961931}
-  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3216162464796638240}
-  m_Father: {fileID: 8395849181241925674}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2251752784648674668
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4496682882525191446}
-  m_Layer: 0
-  m_Name: raven_r_Toe-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4496682882525191446
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2251752784648674668}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00000071525585, y: -4.796163e-14, z: -0.00000006705521, w: 1}
-  m_LocalPosition: {x: 0.015185313, y: -5.9604643e-10, z: 0.0000000047683715}
-  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1218835392760148992}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2299624652518839184
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3115417465204013474}
-  m_Layer: 0
-  m_Name: raven_l_Feather3-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3115417465204013474
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2299624652518839184}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.070883766, y: 0.000000019073486, z: 0}
-  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7541317204591456408}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2483540365830936102
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5399028723201331611}
-  m_Layer: 0
-  m_Name: raven_l_Toe-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5399028723201331611
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2483540365830936102}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.015185329, y: -0.0000000017881393, z: -0.0000000047683715}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8395849181241925674}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2491301079412215859
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8757199439546074076}
-  m_Layer: 0
-  m_Name: raven_Neck1_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8757199439546074076
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2491301079412215859}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.000000078999555, y: 0.000000021899288, z: -0.26713383, w: 0.96365947}
-  m_LocalPosition: {x: -0.20574136, y: -0.0000011825562, z: -0.00000002450151}
-  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8784260079188091075}
-  m_Father: {fileID: 2842574597944101991}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2530264668045965987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1807,7 +589,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2715947427184232762}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ToesEnd_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1829,37 +611,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5716620403748878734}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2711685372207765178
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6737681614839042520}
-  m_Layer: 0
-  m_Name: raven_Beak_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6737681614839042520
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2711685372207765178}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.000009567987, y: 0.0000028362508, z: 0.34516278, w: 0.93854284}
-  m_LocalPosition: {x: -0.042949256, y: 0.000000028610229, z: -0.0000000036882601}
-  m_LocalScale: {x: 0.99999964, y: 0.99999994, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6991178869517761663}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2772252430140182937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1869,7 +620,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8791222034394742778}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger3_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1892,38 +643,6 @@ Transform:
   - {fileID: 4194164690669687427}
   m_Father: {fileID: 4675442142177225143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2939358213347530650
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8784260079188091075}
-  m_Layer: 0
-  m_Name: raven_Neck_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8784260079188091075
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2939358213347530650}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0000019523923, y: -0.0000002509871, z: 0.0445503, w: 0.99900717}
-  m_LocalPosition: {x: -0.04148876, y: 0, z: 0}
-  m_LocalScale: {x: 0.99999976, y: 0.99999976, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6991178869517761663}
-  m_Father: {fileID: 8757199439546074076}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3034810060352854285
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,7 +652,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1690714138781234446}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TileJoint4_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1964,7 +683,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8758671334172626907}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TileJoint2_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1996,7 +715,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4194164690669687427}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger4_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2027,7 +746,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 318214678990806952}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RingFinger2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2050,101 +769,6 @@ Transform:
   - {fileID: 9090423055207651688}
   m_Father: {fileID: 3822663315899445130}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3137726322856838711
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8359607702337123334}
-  m_Layer: 0
-  m_Name: raven_r_Feather3_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8359607702337123334
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3137726322856838711}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.00000005960457, y: 0.00000022631134, z: -0.00000026077024, w: 1}
-  m_LocalPosition: {x: 0.09296276, y: -0.00000012397766, z: 0.000000047683713}
-  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8592718207877902602}
-  m_Father: {fileID: 7527787389276273872}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3150462074456704262
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8903937659197848925}
-  m_Layer: 0
-  m_Name: raven_r_Ankle_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8903937659197848925
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3150462074456704262}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.00000032076613, y: 0.00000042582406, z: -0.4453362, w: 0.89536345}
-  m_LocalPosition: {x: 0.046063174, y: -0.00000072956084, z: -0.000000019073486}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1218835392760148992}
-  m_Father: {fileID: 3736386780427478824}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3180544162221216107
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2723781648425111476}
-  m_Layer: 0
-  m_Name: raven_r_DigitI-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2723781648425111476
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3180544162221216107}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00000008742279, y: -0.00000011920929, z: 1.0421609e-14, w: 1}
-  m_LocalPosition: {x: 0.033210766, y: 0, z: 0.000000011920928}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 647138002545277438}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3244880487349166618
 GameObject:
   m_ObjectHideFlags: 0
@@ -2154,7 +778,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4381249781197265490}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ThumbFinger4_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2185,7 +809,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7998461571356939290}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ankle_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2208,37 +832,6 @@ Transform:
   - {fileID: 7084984327418483937}
   m_Father: {fileID: 4965645735251372344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3302549131815523141
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8803579171206347704}
-  m_Layer: 0
-  m_Name: raven_l_TailFeather-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8803579171206347704
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3302549131815523141}
-  serializedVersion: 2
-  m_LocalRotation: {x: 5.5511135e-16, y: 0.000000018626448, z: -0.000000029802319, w: 1}
-  m_LocalPosition: {x: -0.13014951, y: 0.000000038146972, z: 0.0000000023841857}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1242035606636478752}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3307586443867557142
 GameObject:
   m_ObjectHideFlags: 0
@@ -2248,7 +841,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6763074371192523895}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2272,69 +865,6 @@ Transform:
   - {fileID: 2144017426835256206}
   m_Father: {fileID: 8304489163566128485}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3339205202217748262
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 930936426471540900}
-  m_Layer: 0
-  m_Name: raven_Mandible-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &930936426471540900
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3339205202217748262}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.000000059605554, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.06827545, y: -0.000000019073486, z: 0.000000009536452}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4860319508177375}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3514506846893111291
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5715929465508227828}
-  m_Layer: 0
-  m_Name: raven_r_EyelidUpper_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5715929465508227828
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3514506846893111291}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.5491673, y: 0.18030836, z: 0.77437145, w: 0.25739667}
-  m_LocalPosition: {x: -0.04053337, y: 0.0037133503, z: 0.020539856}
-  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999998}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8763652449224156021}
-  m_Father: {fileID: 6991178869517761663}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3690777934200109840
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,7 +874,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 278248014996192256}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wrist_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2379,7 +909,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9023856484754002826}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MiddleFinger1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2402,101 +932,6 @@ Transform:
   - {fileID: 7805489971237070725}
   m_Father: {fileID: 6428477100502246870}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3854435962499096116
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6473547858704412013}
-  m_Layer: 0
-  m_Name: Raven_Root_Group
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6473547858704412013
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3854435962499096116}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.013506851, y: 0.46500418, z: 0.08980809}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8273009029603004560}
-  m_Father: {fileID: 8304489163566128485}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3861923956960082863
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8184190906927627839}
-  m_Layer: 0
-  m_Name: raven_l_EyelidLower_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8184190906927627839
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3861923956960082863}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.17206459, y: -0.55180967, z: 0.24006876, w: 0.7799146}
-  m_LocalPosition: {x: -0.04053314, y: 0.003713827, z: -0.0205369}
-  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5672631751113139627}
-  m_Father: {fileID: 6991178869517761663}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3897959698597877320
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3229287183604920286}
-  m_Layer: 0
-  m_Name: raven_r_Feather3_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3229287183604920286
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3897959698597877320}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.00000008940692, y: 0.00000024121255, z: -0.00000023096798, w: 1}
-  m_LocalPosition: {x: 0.09296272, y: -0.000000095367426, z: 0.000000038146972}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1497130574980612930}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3937538738863864955
 GameObject:
   m_ObjectHideFlags: 0
@@ -2506,7 +941,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2723062470805943270}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ThumbFinger3_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2543,7 +978,7 @@ GameObject:
   - component: {fileID: 3746251814574655066}
   - component: {fileID: 4533442079258963708}
   - component: {fileID: 1246599776171871169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Forest_Troll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2558,14 +993,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3967763876752096800}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9882004, z: -0, w: -0.15316628}
+  m_LocalRotation: {x: 0, y: 0.9882003, z: -0, w: -0.15316689}
   m_LocalPosition: {x: 0.009, y: 0, z: -0.003}
-  m_LocalScale: {x: 0.27328, y: 0.27328, z: 0.27328}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.039999995, y: 0.04, z: 0.039999995}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6763074371192523895}
-  - {fileID: 8029266479782637589}
-  - {fileID: 6473547858704412013}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 197.621, z: 0}
 --- !u!95 &2230607475178690094
@@ -2747,38 +1180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 968e1c8762dfd65428aac748cf7f0b86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &3970102579811817860
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7184778918200342599}
-  m_Layer: 0
-  m_Name: raven_l_Feather2_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7184778918200342599
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3970102579811817860}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0000010728836, y: -0.00000006705517, z: -0.00000005960472, w: 1}
-  m_LocalPosition: {x: -0.12321125, y: -0.000000009536743, z: 0.000000009536743}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7541317204591456408}
-  m_Father: {fileID: 6266290061221137979}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3991353090365343115
 GameObject:
   m_ObjectHideFlags: 0
@@ -2788,7 +1189,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 505853529562276305}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Neck_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2820,7 +1221,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1583943751152204944}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eye_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2852,7 +1253,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1162905002221776596}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Spine1_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2884,7 +1285,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5731720193375741790}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RingFinger1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2916,7 +1317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7820867723036884367}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MiddleFinger4_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2947,7 +1348,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1196124085185463207}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EyeEnd_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2978,7 +1379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1908029238644196039}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ThumbFinger3_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3001,41 +1402,6 @@ Transform:
   - {fileID: 4381249781197265490}
   m_Father: {fileID: 7784372803011199920}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4146079292556816134
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6267829036949941352}
-  m_Layer: 0
-  m_Name: raven_Tail_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6267829036949941352
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4146079292556816134}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0000001410127, y: -0.0000005488538, z: 0.99989736, w: 0.014327849}
-  m_LocalPosition: {x: 0.0000000023841857, y: -0.000000019073486, z: 0}
-  m_LocalScale: {x: 1.0000001, y: 1, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5606075001828087486}
-  - {fileID: 5042503282986246370}
-  - {fileID: 8456329407461138803}
-  - {fileID: 4570781126685006467}
-  m_Father: {fileID: 2842574597944101991}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4168488175058714731
 GameObject:
   m_ObjectHideFlags: 0
@@ -3045,7 +1411,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4675442142177225143}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3068,113 +1434,6 @@ Transform:
   - {fileID: 8791222034394742778}
   m_Father: {fileID: 4360634559062508459}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4321979870837338694
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7161626641240436063}
-  m_Layer: 0
-  m_Name: raven_r_DigitIII_1_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7161626641240436063
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4321979870837338694}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.00023397952, y: 0.000025812433, z: -0.7065851, w: 0.7076281}
-  m_LocalPosition: {x: 0.0100336205, y: -0.0065984176, z: -0.0014999819}
-  m_LocalScale: {x: 0.9999999, y: 1.0000006, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7674317956698478943}
-  m_Father: {fileID: 1218835392760148992}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4519073987283341353
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7527787389276273872}
-  m_Layer: 0
-  m_Name: raven_r_Feather2_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7527787389276273872
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4519073987283341353}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0000010058282, y: 0.0000007152562, z: 0.0000003203743, w: 1}
-  m_LocalPosition: {x: 0.12321123, y: -0.000000104904174, z: 0.000000057220458}
-  m_LocalScale: {x: 0.9999998, y: 0.99999994, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8359607702337123334}
-  m_Father: {fileID: 831408777462821643}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4576929756449344816
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6991178869517761663}
-  m_Layer: 0
-  m_Name: raven_Head_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6991178869517761663
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4576929756449344816}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.000002129196, y: -0.00000009822706, z: 0.13412364, w: 0.9909646}
-  m_LocalPosition: {x: -0.037522756, y: 0.000000047683713, z: 7.2759575e-14}
-  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5086060944067869842}
-  - {fileID: 6737681614839042520}
-  - {fileID: 8184190906927627839}
-  - {fileID: 8446908179155967757}
-  - {fileID: 3125423127123926807}
-  - {fileID: 8020443132243075792}
-  - {fileID: 4860319508177375}
-  - {fileID: 4423481108444653633}
-  - {fileID: 2348874767571511765}
-  - {fileID: 3739872000662562344}
-  - {fileID: 5715929465508227828}
-  - {fileID: 707193685243251180}
-  m_Father: {fileID: 8784260079188091075}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4642638611291288670
 GameObject:
   m_ObjectHideFlags: 0
@@ -3184,7 +1443,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1517955557944709745}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Chest_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3218,7 +1477,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8713029139559354951}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TileJoint3_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3250,7 +1509,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6927797158387563638}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scapula_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3273,42 +1532,6 @@ Transform:
   - {fileID: 2598751450525713236}
   m_Father: {fileID: 1517955557944709745}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4847021924407385717
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8395849181241925674}
-  m_Layer: 0
-  m_Name: raven_l_Toe_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8395849181241925674
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4847021924407385717}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0000025068084, y: -0.000012774954, z: 0.19255616, w: 0.981286}
-  m_LocalPosition: {x: -0.060267895, y: 0, z: 0}
-  m_LocalScale: {x: 0.9999999, y: 0.9999998, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 785520866825254615}
-  - {fileID: 3569622928938788596}
-  - {fileID: 6672267814088200007}
-  - {fileID: 5719356847762808450}
-  - {fileID: 5399028723201331611}
-  m_Father: {fileID: 8515901967096851646}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4909862978432343048
 GameObject:
   m_ObjectHideFlags: 0
@@ -3318,7 +1541,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8369385589984359524}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eye_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3341,108 +1564,6 @@ Transform:
   - {fileID: 1196124085185463207}
   m_Father: {fileID: 6869636404614945467}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4920979604053913714
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1218923847124801391}
-  m_Layer: 0
-  m_Name: raven_l_Feather1_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1218923847124801391
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4920979604053913714}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.00000054389227, y: -0.000000033527478, z: -0.00000023841856, w: 1}
-  m_LocalPosition: {x: -0.14747848, y: 0, z: -0.000000028610229}
-  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3460394457507592236}
-  m_Father: {fileID: 1329565262818772898}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4926602738617132758
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2842574597944101991}
-  m_Layer: 0
-  m_Name: raven_Spine_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2842574597944101991
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4926602738617132758}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.43534073, y: 0.5572057, z: 0.43534118, w: 0.5572058}
-  m_LocalPosition: {x: -0.0000000016447552, y: 0.0376276, z: 0.1660127}
-  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 57487608051579430}
-  - {fileID: 40491137341153414}
-  - {fileID: 4191563087733317832}
-  - {fileID: 8757199439546074076}
-  - {fileID: 1721247365203279842}
-  - {fileID: 5234688543534129097}
-  - {fileID: 1463179326013735201}
-  - {fileID: 6267829036949941352}
-  m_Father: {fileID: 8273009029603004560}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5015960977975436898
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7819427570543056758}
-  m_Layer: 0
-  m_Name: raven_r_EyelidLower-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7819427570543056758
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5015960977975436898}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.000000014901161, y: -0.000000037252907, z: -0.000000014901161, w: 1}
-  m_LocalPosition: {x: 0.0093200775, y: -0.000000019073486, z: 0.000000038146972}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2348874767571511765}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5070222589201710322
 GameObject:
   m_ObjectHideFlags: 0
@@ -3452,7 +1573,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3734892971225871565}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HeadEnd_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3483,7 +1604,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 751960823478023448}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Elbow_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3506,38 +1627,6 @@ Transform:
   - {fileID: 6428477100502246870}
   m_Father: {fileID: 2598751450525713236}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5268357965387930385
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7651149485125786488}
-  m_Layer: 0
-  m_Name: raven_l_Ulna_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7651149485125786488
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5268357965387930385}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.038423464, y: 0.011774907, z: 0.9559922, w: 0.29062682}
-  m_LocalPosition: {x: -0.13683261, y: 0.000000028610229, z: -0.000000019073486}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1329565262818772898}
-  m_Father: {fileID: 40491137341153414}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5315601743216929101
 GameObject:
   m_ObjectHideFlags: 0
@@ -3547,7 +1636,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4071397843459978024}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Root_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3573,69 +1662,6 @@ Transform:
   - {fileID: 62157746936568231}
   m_Father: {fileID: 2817863640394906029}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5523893657651823300
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2742103818392808858}
-  m_Layer: 0
-  m_Name: raven_r_DigitIII_3_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2742103818392808858
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5523893657651823300}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0000004768372, y: 0.00000015098131, z: -7.1993504e-14, w: 1}
-  m_LocalPosition: {x: 0.017899107, y: -0.00000004380941, z: -0.0000000023841857}
-  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8997464922378469329}
-  m_Father: {fileID: 7674317956698478943}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5573846709973894061
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1500107257978740918}
-  m_Layer: 0
-  m_Name: raven_l_Wing_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1500107257978740918
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5573846709973894061}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0012383792, y: 0.019705474, z: 0.019695006, w: 0.9996111}
-  m_LocalPosition: {x: -0, y: -0.000000028610229, z: -0.000000028610229}
-  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1329565262818772898}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5671608731263445903
 GameObject:
   m_ObjectHideFlags: 0
@@ -3645,7 +1671,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7287640951590166520}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RingFinger2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3668,106 +1694,6 @@ Transform:
   - {fileID: 2924785062571726513}
   m_Father: {fileID: 5731720193375741790}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5767123994827279316
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8955293266188370196}
-  m_Layer: 0
-  m_Name: raven_r_DigitII_1_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8955293266188370196
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5767123994827279316}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.2259229, y: 0.22625689, z: -0.6694933, w: 0.67048144}
-  m_LocalPosition: {x: 0.010022789, y: 0.00078258454, z: -0.009519973}
-  m_LocalScale: {x: 0.99999976, y: 1.0000005, z: 0.9999998}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5794154515639160941}
-  m_Father: {fileID: 1218835392760148992}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5793870113973773332
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1218835392760148992}
-  m_Layer: 0
-  m_Name: raven_r_Toe_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1218835392760148992
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5793870113973773332}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.00000048921805, y: -0.0000012219001, z: 0.19247496, w: 0.9813019}
-  m_LocalPosition: {x: 0.060267925, y: 0.000000011920928, z: -0.000000028610229}
-  m_LocalScale: {x: 0.9999998, y: 0.99999994, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 647138002545277438}
-  - {fileID: 8955293266188370196}
-  - {fileID: 7161626641240436063}
-  - {fileID: 3807360651732557419}
-  - {fileID: 4496682882525191446}
-  m_Father: {fileID: 8903937659197848925}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5805623273289277087
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6672267814088200007}
-  m_Layer: 0
-  m_Name: raven_l_DigitIII_1_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6672267814088200007
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5805623273289277087}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.00010555411, y: 0.000104833816, z: -0.7069213, w: 0.7072922}
-  m_LocalPosition: {x: -0.010033618, y: 0.0065984633, z: 0.0014983105}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3042408606508759413}
-  m_Father: {fileID: 8395849181241925674}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5824706267461990182
 GameObject:
   m_ObjectHideFlags: 0
@@ -3777,7 +1703,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8925274011934477620}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hip_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3800,38 +1726,6 @@ Transform:
   - {fileID: 4965645735251372344}
   m_Father: {fileID: 4071397843459978024}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5873199930231860407
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5794154515639160941}
-  m_Layer: 0
-  m_Name: raven_r_DigitII_2_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5794154515639160941
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5873199930231860407}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0000042915194, y: 0.000000148654, z: 0.00000023841791, w: 1}
-  m_LocalPosition: {x: 0.016407471, y: -0.000000031292437, z: 0.000000007152557}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2002685693189207466}
-  m_Father: {fileID: 8955293266188370196}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5875813401177649370
 GameObject:
   m_ObjectHideFlags: 0
@@ -3841,7 +1735,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6428477100502246870}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wrist_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3867,69 +1761,6 @@ Transform:
   - {fileID: 7784372803011199920}
   m_Father: {fileID: 751960823478023448}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5977269272996359950
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5672631751113139627}
-  m_Layer: 0
-  m_Name: raven_l_EyelidLower-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5672631751113139627
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5977269272996359950}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00000001490117, y: -0.000000029802322, z: 0.00000026822093, w: 1}
-  m_LocalPosition: {x: -0.009320059, y: 0, z: -0.000000038146972}
-  m_LocalScale: {x: 0.9999999, y: 1, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8184190906927627839}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5988422124058855732
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1721247365203279842}
-  m_Layer: 0
-  m_Name: raven_r_Humerus_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1721247365203279842
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5988422124058855732}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.9871087, y: -0.12523997, z: 0.07477197, w: 0.06588319}
-  m_LocalPosition: {x: -0.20510873, y: 0.027340088, z: 0.059379954}
-  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 521007421561846231}
-  m_Father: {fileID: 2842574597944101991}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5990905866859591681
 GameObject:
   m_ObjectHideFlags: 0
@@ -3939,7 +1770,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5792144338532353578}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ThumbFinger2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3972,7 +1803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4742895226616754424}
   - component: {fileID: 4799751777377954592}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FTrollTeethLow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4052,38 +1883,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.024881782, y: 0.06537237, z: -0.00062844716}
     m_Extent: {x: 0.018508388, y: 0.021904407, z: 0.016620412}
   m_DirtyAABB: 0
---- !u!1 &6030792645713398777
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1497130574980612930}
-  m_Layer: 0
-  m_Name: raven_r_Feather2_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1497130574980612930
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6030792645713398777}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0000010952352, y: 0.00000071898125, z: 0.00000024586836, w: 1}
-  m_LocalPosition: {x: 0.12321125, y: -0.000000047683713, z: -0.000000076293944}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3229287183604920286}
-  m_Father: {fileID: 5951207411317244890}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6049760862738170466
 GameObject:
   m_ObjectHideFlags: 0
@@ -4093,7 +1892,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7378099939085749259}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MiddleFinger3_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4116,37 +1915,6 @@ Transform:
   - {fileID: 7820867723036884367}
   m_Father: {fileID: 7805489971237070725}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6110188999244823177
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9143944474757374216}
-  m_Layer: 0
-  m_Name: raven_r_TailFeather-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9143944474757374216
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6110188999244823177}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0000001192093, y: 1.7763573e-15, z: 0.000000014901163, w: 1}
-  m_LocalPosition: {x: 0.13014945, y: 0.000000038146972, z: 0.0000000011920929}
-  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7769826309787882725}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6116340118860719816
 GameObject:
   m_ObjectHideFlags: 0
@@ -4156,7 +1924,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9090423055207651688}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RingFinger3_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4188,7 +1956,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7462385296730980561}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger3_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4211,38 +1979,6 @@ Transform:
   - {fileID: 538564497865505976}
   m_Father: {fileID: 4172909041598886123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6166554789482725526
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 831408777462821643}
-  m_Layer: 0
-  m_Name: raven_r_Feather1_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &831408777462821643
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6166554789482725526}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0000012591477, y: 0.000000030733737, z: -0.00000008195632, w: 1}
-  m_LocalPosition: {x: 0.14747854, y: 0.000000104904174, z: -0.000000009536743}
-  m_LocalScale: {x: 1.0000004, y: 1.0000004, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7527787389276273872}
-  m_Father: {fileID: 3571137452826356464}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6202282375102097449
 GameObject:
   m_ObjectHideFlags: 0
@@ -4252,7 +1988,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2298056346451634751}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jaw_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4284,7 +2020,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2751357329532952627}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scapula_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4316,7 +2052,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2739294930980306480}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MiddleFinger1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4348,7 +2084,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6582229891170960760}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ThumbFinger4_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4379,7 +2115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2598751450525713236}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shoulder_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4412,7 +2148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8289630232074631213}
   - component: {fileID: 9134837087549172482}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FTrollLow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4537,196 +2273,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0502712, y: 0.049421616, z: -0.008469723}
     m_Extent: {x: 0.26337808, y: 0.16961917, z: 0.21913078}
   m_DirtyAABB: 0
---- !u!1 &6574166623705741547
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7096911787627505360}
-  m_Layer: 0
-  m_Name: raven_l_Feather3_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7096911787627505360
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6574166623705741547}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0000020563598, y: -0.00000009592575, z: 0.00000022351759, w: 1}
-  m_LocalPosition: {x: -0.092962556, y: -0.000000019073486, z: -0.000000047683713}
-  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3460394457507592236}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6641304769494482665
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8515901967096851646}
-  m_Layer: 0
-  m_Name: raven_l_Ankle_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8515901967096851646
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6641304769494482665}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.000007643643, y: 0.000015903024, z: -0.44533944, w: 0.89536184}
-  m_LocalPosition: {x: -0.04606319, y: 0.0000006961822, z: 0}
-  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8395849181241925674}
-  m_Father: {fileID: 336505372521585703}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6689151031730499523
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5686602346483878175}
-  m_Layer: 0
-  m_Name: raven_l_Wing-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5686602346483878175
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6689151031730499523}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3077273, y: -0.00000019073485, z: 0.000000009536743}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6490926829874855942}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6689303685728041941
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9144917699285015163}
-  m_Layer: 0
-  m_Name: raven_l_Metacarpus_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9144917699285015163
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6689303685728041941}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.050640713, y: 0.0050856066, z: 0.9928105, w: -0.10833736}
-  m_LocalPosition: {x: -0.12532379, y: 0.000000019073486, z: 0.000000009536743}
-  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6266290061221137979}
-  m_Father: {fileID: 1786553236149346822}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6692753542165487995
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7534003122410568675}
-  m_Layer: 0
-  m_Name: raven_r_Ulna_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7534003122410568675
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6692753542165487995}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.038423896, y: 0.011775172, z: 0.95599216, w: 0.29062682}
-  m_LocalPosition: {x: 0.13683257, y: -0.000000038146972, z: -0.000000047683713}
-  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 0.9999998}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1477778549746439826}
-  m_Father: {fileID: 5234688543534129097}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6802981688072874207
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1242035606636478752}
-  m_Layer: 0
-  m_Name: raven_l_TailFeather_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1242035606636478752
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6802981688072874207}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0073077483, y: -0.07236566, z: 0.0167453, w: 0.9972108}
-  m_LocalPosition: {x: 0.002063036, y: 0.008149109, z: -0.02733797}
-  m_LocalScale: {x: 1.0000002, y: 1, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8803579171206347704}
-  m_Father: {fileID: 8456329407461138803}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6900224474453128975
 GameObject:
   m_ObjectHideFlags: 0
@@ -4736,7 +2282,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9044398069982321121}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RingFinger4_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4758,38 +2304,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 9090423055207651688}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7053892592769558657
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3807360651732557419}
-  m_Layer: 0
-  m_Name: raven_r_DigitIV_1_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3807360651732557419
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7053892592769558657}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.22921705, y: -0.22955413, z: -0.6683731, w: 0.66935927}
-  m_LocalPosition: {x: 0.0100215655, y: 0.0015790409, z: 0.007960028}
-  m_LocalScale: {x: 1, y: 1.0000006, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 277815048882002822}
-  m_Father: {fileID: 1218835392760148992}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7076370899865925996
 GameObject:
   m_ObjectHideFlags: 0
@@ -4800,7 +2314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 888367645665235353}
   - component: {fileID: 9018974053604225997}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FTrollStoneLow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4880,38 +2394,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.001044903, y: -0.016075514, z: -0.010674758}
     m_Extent: {x: 0.060556233, y: 0.039070673, z: 0.048049524}
   m_DirtyAABB: 0
---- !u!1 &7152351474236413739
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6266290061221137979}
-  m_Layer: 0
-  m_Name: raven_l_Feather1_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6266290061221137979
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7152351474236413739}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0000005364418, y: -0.00000006426117, z: -0.00000015646224, w: 1}
-  m_LocalPosition: {x: -0.14747848, y: -0.000000019073486, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7184778918200342599}
-  m_Father: {fileID: 9144917699285015163}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7213597992249708972
 GameObject:
   m_ObjectHideFlags: 0
@@ -4922,7 +2404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4258756183022856391}
   - component: {fileID: 8717653055202648897}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FTrollTreeLow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5012,7 +2494,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7805489971237070725}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MiddleFinger2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5035,38 +2517,6 @@ Transform:
   - {fileID: 7378099939085749259}
   m_Father: {fileID: 9023856484754002826}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7329814189498534929
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3216162464796638240}
-  m_Layer: 0
-  m_Name: raven_l_DigitIV_2_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3216162464796638240
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7329814189498534929}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0000012976453, y: 3.0938278e-13, z: -0.0000002384186, w: 1}
-  m_LocalPosition: {x: -0.013637268, y: 0, z: 0.0000000047683715}
-  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3212223891732246994}
-  m_Father: {fileID: 5719356847762808450}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7345728342292434160
 GameObject:
   m_ObjectHideFlags: 0
@@ -5076,7 +2526,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 492175824622778407}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MiddleFinger3_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5099,69 +2549,6 @@ Transform:
   - {fileID: 3334650276555826925}
   m_Father: {fileID: 1473555464388511779}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7354210739137378700
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7769826309787882725}
-  m_Layer: 0
-  m_Name: raven_r_TailFeather_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7769826309787882725
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7354210739137378700}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.07236646, y: -0.0073078866, z: 0.99721074, w: -0.016744835}
-  m_LocalPosition: {x: 0.0020630646, y: 0.0081491275, z: 0.027339991}
-  m_LocalScale: {x: 1, y: 0.9999998, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 9143944474757374216}
-  m_Father: {fileID: 8456329407461138803}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7388667045695515202
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3739872000662562344}
-  m_Layer: 0
-  m_Name: raven_r_EyelidLower_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3739872000662562344
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7388667045695515202}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.55180323, y: -0.17207372, z: 0.7799146, w: -0.24007717}
-  m_LocalPosition: {x: -0.04053337, y: 0.0037133503, z: 0.02053987}
-  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6991178869517761663}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7393350677709938410
 GameObject:
   m_ObjectHideFlags: 0
@@ -5171,7 +2558,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3334650276555826925}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MiddleFinger4_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5193,165 +2580,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 492175824622778407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7412393115562206242
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2532125339310653481}
-  m_Layer: 0
-  m_Name: raven_l_DigitI-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2532125339310653481
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7412393115562206242}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0.000000016982085, w: 1}
-  m_LocalPosition: {x: -0.03321076, y: 0.0000000023841857, z: 0.0000000047683715}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 785520866825254615}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7414163228153848805
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3212223891732246994}
-  m_Layer: 0
-  m_Name: raven_l_DigitIV_3_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3212223891732246994
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7414163228153848805}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0000025785414, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.011310463, y: 0, z: -0.0000000023841857}
-  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7059428652228000440}
-  m_Father: {fileID: 3216162464796638240}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7432107947122758900
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 521007421561846231}
-  m_Layer: 0
-  m_Name: raven_r_Ulna_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &521007421561846231
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7432107947122758900}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.038423844, y: 0.011775228, z: 0.9559922, w: 0.29062667}
-  m_LocalPosition: {x: 0.13683258, y: -0.000000019073486, z: 0}
-  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3571137452826356464}
-  - {fileID: 4439299816151332529}
-  m_Father: {fileID: 1721247365203279842}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7518800416662439246
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 277815048882002822}
-  m_Layer: 0
-  m_Name: raven_r_DigitIV_2_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &277815048882002822
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7518800416662439246}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0000014304968, y: 0.00000016488985, z: 0.00000023843288, w: 1}
-  m_LocalPosition: {x: 0.013637266, y: -0.000000028610229, z: -0.000000014305114}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1634678587870949499}
-  m_Father: {fileID: 3807360651732557419}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7534216627005467473
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7482650706014758758}
-  m_Layer: 0
-  m_Name: raven_l_EyelidUpper-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7482650706014758758
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7534216627005467473}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00000008940697, y: 6.6613386e-15, z: 0.00000007450581, w: 1}
-  m_LocalPosition: {x: -0.009320068, y: -0.000000009536743, z: 0.000000076293944}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3125423127123926807}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7694129950833253680
 GameObject:
   m_ObjectHideFlags: 0
@@ -5361,7 +2589,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 57219085818912769}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EyeEnd_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5383,38 +2611,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1583943751152204944}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7934512005362359666
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 647138002545277438}
-  m_Layer: 0
-  m_Name: raven_r_DigitI_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &647138002545277438
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7934512005362359666}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.70658547, y: 0.7076277, z: 0.000000941153, w: -0.0000005656355}
-  m_LocalPosition: {x: 0.010019377, y: 0.0030911409, z: -0.0014999675}
-  m_LocalScale: {x: 0.99999994, y: 1.0000007, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2723781648425111476}
-  m_Father: {fileID: 1218835392760148992}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7957235382211870426
 GameObject:
   m_ObjectHideFlags: 0
@@ -5424,7 +2620,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2144017426835256206}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Geometry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5462,7 +2658,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3468416038640501737}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RingFinger4_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5484,38 +2680,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2924785062571726513}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8116916521106192562
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 40491137341153414}
-  m_Layer: 0
-  m_Name: raven_l_Humerus_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &40491137341153414
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8116916521106192562}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.12524012, y: 0.98710865, z: 0.06588357, w: -0.07477176}
-  m_LocalPosition: {x: -0.20510867, y: 0.027340125, z: -0.059381776}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1.0000002}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7651149485125786488}
-  m_Father: {fileID: 2842574597944101991}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8180212049364148043
 GameObject:
   m_ObjectHideFlags: 0
@@ -5525,7 +2689,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1473555464388511779}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MiddleFinger2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5548,196 +2712,6 @@ Transform:
   - {fileID: 492175824622778407}
   m_Father: {fileID: 2739294930980306480}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8222702295855285797
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8273009029603004560}
-  m_Layer: 0
-  m_Name: raven_Main_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8273009029603004560
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8222702295855285797}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: -6.2703404e-10}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2842574597944101991}
-  m_Father: {fileID: 6473547858704412013}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8280209360655299365
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2348874767571511765}
-  m_Layer: 0
-  m_Name: raven_r_EyelidLower_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2348874767571511765
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8280209360655299365}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.55180323, y: -0.17207403, z: 0.7799146, w: -0.24007681}
-  m_LocalPosition: {x: -0.04053337, y: 0.0037133503, z: 0.020539856}
-  m_LocalScale: {x: 0.99999964, y: 0.9999998, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7819427570543056758}
-  m_Father: {fileID: 6991178869517761663}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8330087516166500653
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8752645266282693743}
-  m_Layer: 0
-  m_Name: raven_Beak-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8752645266282693743
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8330087516166500653}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.000000043709413, y: 0.000000043711218, z: 0.00000019371511, w: 1}
-  m_LocalPosition: {x: -0.0705435, y: -0.000000038146972, z: 0.000000019073486}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5086060944067869842}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8343999141000091389
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4191563087733317832}
-  m_Layer: 0
-  m_Name: raven_l_Thigh_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4191563087733317832
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8343999141000091389}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0000021371782, y: -0.0000015652668, z: 0.51407665, w: 0.8577442}
-  m_LocalPosition: {x: -0.005468843, y: -0.01420516, z: -0.040395897}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 336505372521585703}
-  m_Father: {fileID: 2842574597944101991}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8400794190993890972
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 57487608051579430}
-  m_Layer: 0
-  m_Name: raven_l_Humerus_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &57487608051579430
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8400794190993890972}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.1252401, y: 0.98710865, z: 0.06588342, w: -0.07477164}
-  m_LocalPosition: {x: -0.20510867, y: 0.027340107, z: -0.059381776}
-  m_LocalScale: {x: 0.9999998, y: 1.0000002, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1786553236149346822}
-  m_Father: {fileID: 2842574597944101991}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8412539101492615732
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7649396690903486343}
-  m_Layer: 0
-  m_Name: raven_r_Wing_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7649396690903486343
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8412539101492615732}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0012378858, y: 0.01970552, z: 0.019695638, w: 0.999611}
-  m_LocalPosition: {x: 0.000002002716, y: 0.000000019073486, z: -0.000000009536743}
-  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1477778549746439826}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8449249867907989425
 GameObject:
   m_ObjectHideFlags: 0
@@ -5747,7 +2721,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3822663315899445130}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RingFinger1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5770,38 +2744,6 @@ Transform:
   - {fileID: 318214678990806952}
   m_Father: {fileID: 278248014996192256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8451115459474710240
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7596952471116480588}
-  m_Layer: 0
-  m_Name: raven_l_DigitIII_3_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7596952471116480588
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8451115459474710240}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.00000034300322, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.017899098, y: 0, z: -0.0000000023841857}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8532347448143277229}
-  m_Father: {fileID: 3042408606508759413}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8475593577515837170
 GameObject:
   m_ObjectHideFlags: 0
@@ -5811,7 +2753,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5823171459153581703}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shoulder_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5843,7 +2785,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2817863640394906029}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DeformationSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5866,101 +2808,6 @@ Transform:
   - {fileID: 4071397843459978024}
   m_Father: {fileID: 6763074371192523895}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8529662523300547718
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3460394457507592236}
-  m_Layer: 0
-  m_Name: raven_l_Feather2_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3460394457507592236
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8529662523300547718}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0000010281801, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.12321121, y: -0.000000076293944, z: -0.000000057220458}
-  m_LocalScale: {x: 0.9999998, y: 0.99999994, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7096911787627505360}
-  m_Father: {fileID: 1218923847124801391}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8603499683212674781
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4423481108444653633}
-  m_Layer: 0
-  m_Name: raven_Mandible_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4423481108444653633
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8603499683212674781}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.000010447041, y: 0.0000042384313, z: 0.2699115, w: 0.96288514}
-  m_LocalPosition: {x: -0.033994522, y: -0.017166758, z: -0.00000035655407}
-  m_LocalScale: {x: 0.99999976, y: 0.99999994, z: 1.0000002}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6991178869517761663}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8608138640914404277
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1349927360919926957}
-  m_Layer: 0
-  m_Name: raven_l_DigitII_2_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1349927360919926957
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8608138640914404277}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.000004283517, y: -0.000000054177743, z: -0.00000023818595, w: 1}
-  m_LocalPosition: {x: -0.01640747, y: 0, z: -0.0000000023841857}
-  m_LocalScale: {x: 1.0000001, y: 0.9999999, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1412140357881962466}
-  m_Father: {fileID: 3569622928938788596}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8614893900848827708
 GameObject:
   m_ObjectHideFlags: 0
@@ -5970,7 +2817,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6869636404614945467}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Head_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5996,100 +2843,6 @@ Transform:
   - {fileID: 2298056346451634751}
   m_Father: {fileID: 505853529562276305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8618971962225797743
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8592718207877902602}
-  m_Layer: 0
-  m_Name: raven_r_Feather3-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8592718207877902602
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8618971962225797743}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.000000050291423, z: -0, w: 1}
-  m_LocalPosition: {x: 0.070883445, y: 0.000000028610229, z: 0}
-  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8359607702337123334}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8897776536693223884
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7541317204591456408}
-  m_Layer: 0
-  m_Name: raven_l_Feather3_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7541317204591456408
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8897776536693223884}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.000002041459, y: 0.000000031665472, z: 0.0000002458691, w: 1}
-  m_LocalPosition: {x: -0.09296265, y: 0.000000019073486, z: 0.000000009536743}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3115417465204013474}
-  m_Father: {fileID: 7184778918200342599}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8942439683631720963
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 729800931729293507}
-  m_Layer: 0
-  m_Name: raven_r_DigitIV_3-nub_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &729800931729293507
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8942439683631720963}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.00000006022704, z: -0, w: 1}
-  m_LocalPosition: {x: 0.017411089, y: -0.000000005066395, z: -0.000000009536743}
-  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1634678587870949499}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8950660719912234315
 GameObject:
   m_ObjectHideFlags: 0
@@ -6099,7 +2852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4172909041598886123}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndexFinger2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6131,7 +2884,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 62157746936568231}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TileJoint1_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6154,38 +2907,6 @@ Transform:
   - {fileID: 8758671334172626907}
   m_Father: {fileID: 4071397843459978024}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8967421308025398118
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6490926829874855942}
-  m_Layer: 0
-  m_Name: raven_l_Wing_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6490926829874855942
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8967421308025398118}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.031291574, y: 0.0007218744, z: 0.99129486, w: -0.12788619}
-  m_LocalPosition: {x: -0.12532379, y: 0, z: -0.000000028610229}
-  m_LocalScale: {x: 0.9999996, y: 0.99999964, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5686602346483878175}
-  m_Father: {fileID: 1786553236149346822}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9085437899489827348
 GameObject:
   m_ObjectHideFlags: 0
@@ -6196,7 +2917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1621793856334453494}
   - component: {fileID: 2328512218414928226}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FTrollClawLow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6284,71 +3005,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.16080406, y: 0.07395332, z: -0.07757016}
     m_Extent: {x: 0.15920469, y: 0.113587685, z: 0.15082482}
   m_DirtyAABB: 0
---- !u!1 &9104808869971500836
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1329565262818772898}
-  m_Layer: 0
-  m_Name: raven_l_Metacarpus_ctrl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1329565262818772898
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9104808869971500836}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.05064078, y: 0.0050856275, z: 0.9928105, w: -0.10833762}
-  m_LocalPosition: {x: -0.12532377, y: -0.000000038146972, z: -0.000000028610229}
-  m_LocalScale: {x: 0.99999994, y: 0.9999997, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1218923847124801391}
-  - {fileID: 1500107257978740918}
-  m_Father: {fileID: 7651149485125786488}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &9110497618760930241
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3125423127123926807}
-  m_Layer: 0
-  m_Name: raven_l_EyelidUpper_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3125423127123926807
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9110497618760930241}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.18031996, y: -0.54916734, z: -0.25740337, w: 0.77436656}
-  m_LocalPosition: {x: -0.04053314, y: 0.003713827, z: -0.0205369}
-  m_LocalScale: {x: 1, y: 0.9999998, z: 0.9999998}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7482650706014758758}
-  m_Father: {fileID: 6991178869517761663}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9133712538097176693
 GameObject:
   m_ObjectHideFlags: 0
@@ -6358,7 +3014,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7002047828368628010}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Elbow_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6390,7 +3046,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7084984327418483937}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Toes_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6412,68 +3068,4 @@ Transform:
   m_Children:
   - {fileID: 1722455957590454416}
   m_Father: {fileID: 7998461571356939290}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &9196361357400124239
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4860319508177375}
-  m_Layer: 0
-  m_Name: raven_Mandible_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4860319508177375
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9196361357400124239}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.000010394236, y: 0.000004327611, z: 0.26991156, w: 0.96288514}
-  m_LocalPosition: {x: -0.033994522, y: -0.017166777, z: -0.00000035735167}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 930936426471540900}
-  m_Father: {fileID: 6991178869517761663}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &9212767218574328845
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3736386780427478824}
-  m_Layer: 0
-  m_Name: raven_r_Knee_bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3736386780427478824
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9212767218574328845}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00000010643961, y: -0.0000002719704, z: 0.5927856, w: 0.8053603}
-  m_LocalPosition: {x: 0.058345124, y: 0.000000028610229, z: 0.0000000047683715}
-  m_LocalScale: {x: 0.9999998, y: 0.9999999, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8903937659197848925}
-  m_Father: {fileID: 1463179326013735201}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

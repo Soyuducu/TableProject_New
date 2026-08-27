@@ -8,8 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ForestTrollBody_Mat
-  m_Shader: {fileID: -6465566751694194690, guid: 1c593d200d3bce64dadcacf45c63eb89,
-    type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: bf9e4075b4ba03a48a0e31bcbc71891c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -30,7 +29,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AO:
-        m_Texture: {fileID: 2800000, guid: bd74b9d76b00d754b97a287f77279924, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1c79cccd8c0286445a33f9bb071f1ad1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -42,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Color:
-        m_Texture: {fileID: 2800000, guid: 9ba6074f24b388f43b6148b50659c7f7, type: 3}
+        m_Texture: {fileID: 2800000, guid: d51f96118f4c50d4ba7b828d1ec911b9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -70,11 +69,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Metalness:
-        m_Texture: {fileID: 2800000, guid: df82a06140e1e5a49a685ef1bdf4185e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 705aad71a6109d849afb388d1935aa14, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: b24348204bab1184c916a062b4988427, type: 3}
+        m_Texture: {fileID: 2800000, guid: d4966c9efe0330d4fafcc42f6460401c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -86,7 +85,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Roughness:
-        m_Texture: {fileID: 2800000, guid: df82a06140e1e5a49a685ef1bdf4185e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 705aad71a6109d849afb388d1935aa14, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Roughness_1:
@@ -111,7 +110,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AO_Add: 0.58
+    - _AO_Add: 1
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -126,19 +125,19 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FresnelSize: 0.049
+    - _FresnelSize: 0.282
     - _GlossMapScale: 0.345
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
-    - _MetalnesPower: 0.21
+    - _MetalnesPower: 0.389
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RoughnessPower: 0.32
+    - _RoughnessPower: 0
     - _Smoothness: 0.33
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -152,7 +151,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 1}
-    - _FrasnelColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 0}
+    - _FrasnelColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0}
     - _RoughnessColor: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
