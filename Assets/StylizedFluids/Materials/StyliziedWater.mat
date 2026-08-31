@@ -27,7 +27,6 @@ Material:
   m_ValidKeywords:
   - _SUBSURFACE_PATTERN_TYPE
   - _SURFACE_PATTERN_TYPE_TEXTURE
-  - _USE_NORMAL_MAP
   m_InvalidKeywords:
   - _RECALCULATENORMALS_ON
   - _SURFACE_PATTERN_TYPE_PROCEDURAL
@@ -80,7 +79,7 @@ Material:
     - _SurfacePattern: 1
     - _SurfaceScale: 3
     - _SurfaceSpeed: 0.02
-    - _USE_NORMAL_MAP: 1
+    - _USE_NORMAL_MAP: 0
     - _WAVES: 0
     - _WaveSpeed: 1
     - _WaveSteepness: 0.49
