@@ -13,6 +13,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 382992
   packageName: ATC - Arcade Train Controller
-  packageVersion: 1.0
+  packageVersion: 1.0.2
   assetPath: Packages/com.enigma23.common/Runtime/Collision/CollisionEffects.cs
-  uploadId: 968070
+  uploadId: 984044

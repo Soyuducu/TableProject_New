@@ -15,7 +15,7 @@ namespace e23.TrainController
     [ExecuteAlways]
     public class TrainBehaviour : SplineComponent
     {
-        public event Action<bool> OnStartEngine; 
+        public event Action<bool> OnStartEngine;
         public event Action<bool> OnEngineStarted;
         public event Action OnStartedMoving;
         public event Action OnStoppedMoving;
@@ -33,7 +33,7 @@ namespace e23.TrainController
         [SerializeField][Range(0f, 1f)] protected float _startOffSet = 0f;
         [Tooltip("Set the distance from the pivot to the front of the train, this is used to stop the train before the front goes off the tracks at the end of the spline.")]
         [SerializeField] protected float _halfTrainLength = 0f;
-        
+
         protected float _splinePathLength = -1f;
         protected bool _isFirstNative = false;
         protected bool _pathChangeWaiting = false;
@@ -56,6 +56,7 @@ namespace e23.TrainController
         protected bool _trainHasLeftPathChangeRange = false;
         protected bool _trainInPathChangeRange = false;
 
+        public TrackPathManager TrackPathManager { get => _trackPathManager; set => _trackPathManager = value; }
         public TrainBehaviourSettings TrainSettings { get => _trainBehaviourSettings; set => _trainBehaviourSettings = value; }
         public float CurrentSpeed => _currentSpeed;
         public float Throttle => _trainBehaviourSettings.Throttle;
@@ -70,13 +71,13 @@ namespace e23.TrainController
         public bool IsBoosting => _isBoosting;
         public bool IsMovingForward => _movingForward;
         public float DistancePercentage => _distancePercentage;
+        public float HalfTrainLength { get => _halfTrainLength; set => _halfTrainLength = value; }
 
-        public TrackPathManager TrackPathManager => _trackPathManager;
-        public float StartOffset 
-        { 
-            get { return _startOffSet; } 
-            set 
-            { 
+        public float StartOffset
+        {
+            get { return _startOffSet; }
+            set
+            {
                 _startOffSet = value;
 #if UNITY_EDITOR
                 if (Application.isPlaying == false)
@@ -121,14 +122,15 @@ namespace e23.TrainController
         protected virtual void OnValidate()
         {
             if (Application.isPlaying) { return; }
-
+#if UNITY_EDITOR
             UpdateEditModePosition();
+#endif
         }
-        
+
         protected virtual void Awake() { }
         protected virtual void OnEnable() => RegisterActions(true);
         protected virtual void OnDisable() => RegisterActions(false);
-        
+
         protected virtual void Start()
         {
 #if UNITY_EDITOR
@@ -144,7 +146,7 @@ namespace e23.TrainController
         {
             if (_trainBehaviourSettings == null)
             {
-                Debug.LogWarning($"TrainBehaviourSettings has not been assigned to {gameObject.name}.\nIgnore this warning when displayed after building using the prefab builder.", gameObject); 
+                Debug.LogWarning($"TrainBehaviourSettings has not been assigned to {gameObject.name}.\nIgnore this warning when displayed after building using the prefab builder.", gameObject);
                 return;
             }
 
@@ -258,8 +260,8 @@ namespace e23.TrainController
 
                 transform.position = TrackPathManager.SplineContainer.transform.TransformPoint(localPos);
 
-                var forward = (Vector3) TrackPathManager.SplineContainer.transform.TransformDirection(localTangent);
-                var up = (Vector3) TrackPathManager.SplineContainer.transform.TransformDirection(localUp);
+                var forward = TrackPathManager.SplineContainer.transform.TransformDirection(localTangent);
+                var up = TrackPathManager.SplineContainer.transform.TransformDirection(localUp);
 
                 if (forward.magnitude > Mathf.Epsilon)
                 {
@@ -276,7 +278,7 @@ namespace e23.TrainController
 
         }
 #endif
-        protected virtual void SetStartoffset() 
+        protected virtual void SetStartoffset()
         {
             _distanceTravelled = _startOffSet * _splinePathLength;
             _distancePercentage = _startOffSet;
@@ -292,9 +294,9 @@ namespace e23.TrainController
             if (_pathChangeWaiting) { CheckLocationOnPathForChange(); }
 
             _distanceTravelled += _currentSpeed * Time.deltaTime;
-    
-            if (_isClosedTrack) 
-            { 
+
+            if (_isClosedTrack)
+            {
                 _distanceTravelled %= _splinePathLength;
                 if (_distanceTravelled < 0f) { _distanceTravelled += _splinePathLength; }
             }
@@ -370,15 +372,13 @@ namespace e23.TrainController
             (
                 TrackPathManager.BuiltSpline,
                 distancePercentage,
-                out float3 worldPos,
-                out float3 worldTangent,
-                out float3 worldUp);
+                out float3 localPos,
+                out float3 localTangent,
+                out float3 localUp);
 
-            position = worldPos;
-            _currentPosition = worldPos;
+            _currentPosition = localPos;
 
-            var forward = (Vector3) worldTangent;
-            var up = (Vector3) worldUp;
+            var forward = (Vector3) localTangent;
 
             if (forward.magnitude <= Mathf.Epsilon)
             {
@@ -388,6 +388,14 @@ namespace e23.TrainController
             }
 
             forward.Normalize();
+
+            var up = (Vector3) localUp;
+
+            Transform splineTransform = TrackPathManager.SplineContainer.transform;
+
+            position = splineTransform.TransformPoint(localPos);
+            forward = splineTransform.TransformDirection(forward);
+            up = splineTransform.TransformDirection(up);
 
             var remappedForward = GetAxis(_objectForwardAxis);
             var remappedUp = GetAxis(_objectUpAxis);
@@ -404,7 +412,7 @@ namespace e23.TrainController
             { t = Mathf.Clamp01(normalizedTimeWithOffset); }
             else
             { t = normalizedTimeWithOffset % 1f; }
-            
+
             return t;
         }
 
@@ -438,7 +446,7 @@ namespace e23.TrainController
         public virtual void ToggleEngine(bool enableEngine, bool invokeEngineStarted)
         {
             InvokeOnStartEngine(enableEngine);
-            
+
             if (invokeEngineStarted) { InvokeEngineStarted(enableEngine); }
         }
 
@@ -450,7 +458,7 @@ namespace e23.TrainController
             if (EngineRunning == false) { return; }
 
             if (_targetSpeed > MaxSpeed) { return; }
-            
+
             if (_currentSpeed == 0) { InvokeStartedMoving(); }
 
             _speedMultiplier = Acceleration;
@@ -485,7 +493,7 @@ namespace e23.TrainController
         {
             _speedMultiplier = Acceleration;
             _targetSpeed = speed;
-            
+
             InvokeStartedMoving();
         }
 
@@ -523,7 +531,7 @@ namespace e23.TrainController
                 _movingForward = true;
                 speed = _trainBehaviourSettings.MaxSpeed;
             }
-            
+
             StartMoving(speed);
         }
 
@@ -586,7 +594,7 @@ namespace e23.TrainController
             float timeElapsed = 0;
             float startSpeed = _currentSpeed;
             float targetSpeed = _targetSpeed + boostSpeed;
-            
+
             while (timeElapsed < timeToBoost)
             {
                 _targetSpeed = Mathf.Lerp(startSpeed, targetSpeed, timeElapsed / timeToBoost);
@@ -598,7 +606,7 @@ namespace e23.TrainController
             timeElapsed = 0;
             startSpeed = _currentSpeed;
             targetSpeed = _currentSpeed - boostSpeed;
-            
+
             while (timeElapsed < timeToBoost)
             {
                 _targetSpeed = Mathf.Lerp(startSpeed, targetSpeed, timeElapsed / timeToBoost);

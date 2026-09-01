@@ -1,12 +1,12 @@
 {
   "name": "com.enigma23.arcadetraincontroller",
   "displayName": "e23 Arcade Train Controller",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "unity": "6000.0",
   "unityRelease": "67f1",
   "description": "Arcade Train Controller (ATC) is a simple controller asset allowing you to quickly and easily create any type of track vehicle \u2013 for example: a train, rollercoaster, monorail, or tram. The customizable arcade-y feel to the movement gives a fun, satisfying, player experience to your game.\r\n\r\nIncluded is a Train Prefab Builder editor window, which allows you to setup a new train in seconds! Just link the required objects and fill in the details, press a button and you\u2019ve got your new vehicle!\r\n\r\nIncluded Demo Vehicles\r\n- Steam train\r\n- Diesel train\r\n- Carriages\r\n- Monorail train with moving doors",
   "dependencies": {
-    "com.enigma23.common": "1.0.0",
+    "com.enigma23.common": "1.0.1",
     "com.unity.cinemachine": "3.1.7",
     "com.unity.inputsystem": "1.19.0",
     "com.unity.splines": "2.8.4"

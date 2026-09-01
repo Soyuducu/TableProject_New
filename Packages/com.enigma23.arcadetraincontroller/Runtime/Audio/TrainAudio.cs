@@ -12,7 +12,7 @@ namespace e23.TrainController.Audio
     [RequireComponent(typeof(TrainBehaviour))]
     public class TrainAudio : MonoBehaviour
     {
-        [SerializeField] protected List<AudioData> audioData = null;
+        [SerializeField] protected List<AudioData> _audioData = null;
         
         protected TrainBehaviour _trainBehaviour;
         protected Dictionary<AudioType, AudioSource> _audioSources;
@@ -79,7 +79,7 @@ namespace e23.TrainController.Audio
         {
             _audioSources ??= new Dictionary<AudioType, AudioSource>();
 
-            audioData.ForEach(data =>
+            _audioData.ForEach(data =>
             {
                 if (data.AudioType == AudioType.Custom)
                 {
@@ -191,7 +191,7 @@ namespace e23.TrainController.Audio
 
         protected virtual AudioClip GetClip(AudioType audioType)
         {
-            foreach (AudioData data in audioData)
+            foreach (AudioData data in _audioData)
             {
                 if (data.AudioType == audioType)
                 {
@@ -205,7 +205,7 @@ namespace e23.TrainController.Audio
         
         protected virtual AudioSource GetAudioSource(string id)
         {
-            foreach (AudioData data in audioData)
+            foreach (AudioData data in _audioData)
             {
                 if (string.Compare("", id) == 0)
                 {
@@ -219,8 +219,8 @@ namespace e23.TrainController.Audio
 
         public virtual void AddAudioData(AudioData newData)
         {
-            if (audioData == null) { audioData = new List<AudioData>(); }
-            audioData.Add(newData);
+            if (_audioData == null) { _audioData = new List<AudioData>(); }
+            _audioData.Add(newData);
         }
     }
 }

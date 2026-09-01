@@ -14,6 +14,9 @@ namespace e23.TrainController
         protected float _resumeSpeed = 0f;
         protected int _ignoreCount = 0;
 
+        public StationSettings StationSettings { get => _stationSettings; set => _stationSettings = value; }
+        public bool IgnoreFirst { get => _ignoreFirst; set => _ignoreFirst = value; }
+
         protected virtual void OnTriggerEnter(Collider other)
         {
             var trainBehaviour = other.gameObject.GetComponentInParent<TrainBehaviour>();

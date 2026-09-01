@@ -14,10 +14,16 @@ namespace e23.TrainController
         [SerializeField] protected bool _ignoreCarriages = true;
         [Tooltip("Set this to true if you want the train to immediately change to a new path.")]
         [SerializeField] protected bool _instantPathChange = false;
+        [Tooltip("When a train is moving in reverse, the previous index will be used. Set this to true to force next index.")]
         [SerializeField] protected bool _alwaysUseNextIndex = false;
 
         protected int _ignoreCount = 0;
         protected TrainBehaviour _currentTrain;
+
+        public bool IgnoreFirst { get => _ignoreFirst; set => _ignoreFirst = value; }
+        public bool IgnoreCarriages { get => _ignoreCarriages; set => _ignoreCarriages = value; }
+        public bool InstantPathChange { get => _instantPathChange; set => _instantPathChange = value; }
+        public bool AlwaysUseNextIndex { get => _alwaysUseNextIndex; set => _alwaysUseNextIndex = value; }
 
         protected virtual void OnTriggerEnter(Collider other)
         {

@@ -8,6 +8,8 @@ namespace e23.TrainController
     {
         [SerializeField] protected int _goToIndex = 0;
 
+        public int GoToIndex { get => _goToIndex; set => _goToIndex = value; }
+
         protected override void SwitchTrack()
         {
             foreach (var manager in _trackPathManager)

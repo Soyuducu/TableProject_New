@@ -16,13 +16,13 @@ namespace e23.TrainController
 
         [SerializeField] protected SplineContainer _splineContainer;
         [SerializeField] protected List<TrackSwitch> _switches;
+
         [SerializeField] protected int _currentPathIndex = 0;
         [SerializeField] protected int _previousPathIndex = 0;
         [SerializeField] protected float _splinePathLength;
         [SerializeField] protected bool _isClosedTrack = false;
         [SerializeField] protected float _knotDistance = 0f;
         [SerializeField] protected float _knotDistanceNormalised = 0f;
-
         [SerializeField] protected float _pathChangeRangeStart = 0f;
         [SerializeField] protected float _pathChangeRangeEnd = 0f;
 
@@ -35,7 +35,7 @@ namespace e23.TrainController
         protected bool _secondNativeSplineCreated = false;
         protected bool _instantPathChange = false;
 
-        public SplineContainer SplineContainer => _splineContainer;
+        public SplineContainer SplineContainer { get => _splineContainer; set => _splineContainer = value; }
         public int CurrentPathIndex => _currentPathIndex;
         public List<TrackSwitch> Switches => _switches;
         public float PathLength => _splinePathLength;
@@ -55,6 +55,12 @@ namespace e23.TrainController
                 if (_isFirstPending) { return _firstNativeSpline; }
                 else { return _secondNativeSpline; }
             }
+        }
+
+        public virtual void AddSwitch(TrackSwitch trackSwitch)
+        {
+            if (_switches == null) { _switches = new List<TrackSwitch>(); }
+            _switches.Add(trackSwitch);
         }
 
         public virtual void AssignSplineContainer(SplineContainer splineContainer) => _splineContainer = splineContainer;
@@ -237,14 +243,14 @@ namespace e23.TrainController
 
             void CreateFirst()
             {
-                _firstNativeSpline = new NativeSpline(splinePath, _splineContainer.transform.localToWorldMatrix, Allocator.Persistent);
+                _firstNativeSpline = new NativeSpline(splinePath, Allocator.Persistent);
                 _isFirstPending = true;
                 _firstNativeSplineCreated = true;
             }
 
             void CreateSecond()
             {
-                _secondNativeSpline = new NativeSpline(splinePath, _splineContainer.transform.localToWorldMatrix, Allocator.Persistent);
+                _secondNativeSpline = new NativeSpline(splinePath, Allocator.Persistent);
                 _isFirstPending = false;
                 _secondNativeSplineCreated = true;
             }
@@ -278,9 +284,8 @@ namespace e23.TrainController
             rejoinKnot = Mathf.Clamp(rejoinKnot, 0, knotCount - 1);
 
             NativeSpline activePath = _activeNativeSpline;
-
-            float3 divergePos = _splineContainer.transform.TransformPoint(_splineContainer.Splines[splineIndex][divergeKnot].Position);
-            float3 rejoinPos = _splineContainer.transform.TransformPoint(_splineContainer.Splines[splineIndex][rejoinKnot].Position);
+            float3 divergePos = _splineContainer.Splines[splineIndex][divergeKnot].Position;
+            float3 rejoinPos = _splineContainer.Splines[splineIndex][rejoinKnot].Position;
 
             SplineUtility.GetNearestPoint(activePath, divergePos, out _, out float tDiverge);
             SplineUtility.GetNearestPoint(activePath, rejoinPos, out _, out float tRejoin);

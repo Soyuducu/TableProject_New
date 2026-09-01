@@ -11,6 +11,12 @@ namespace e23.TrainController
         [SerializeField] protected List<TrackPathManager> _trackPathManager;
         [SerializeField] protected Button _button;
 
+        public virtual void AddTrackPathManager(TrackPathManager trackPathManager)
+        {
+            if (_trackPathManager == null) { _trackPathManager = new List<TrackPathManager>(); }
+            _trackPathManager.Add(trackPathManager);
+        }
+
         protected virtual void Awake() => GetRequiredComponents();
         protected virtual void OnEnable() => RegisterActions(true);
         protected virtual void OnDisable() => RegisterActions(false);

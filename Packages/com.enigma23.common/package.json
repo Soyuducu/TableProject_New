@@ -1,7 +1,7 @@
 {
   "name": "com.enigma23.common",
   "displayName": "e23 Common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "6000.0",
   "unityRelease": "67f1",
   "description": "Package imported with Enigma 23 assets. Features in this package are common and used across e23 assets, such as\n- Arcade Vehicle Controller\n- Arcade Rotorcraft Controller\n- Arcade Train Controller",

@@ -12,6 +12,21 @@ namespace e23.TrainController
         public int PathCount => _splineKnotIndices.Count;
         public int PathCountMinusOne => _splineKnotIndices.Count - 1;
         public SplineRangeData SplineRangeData(int index) => _splineKnotIndices[index];
+
+        public virtual void CreateSplineRangeData(bool ignore, int spline, int startKnot, int knotCount, bool closed, bool isJunction)
+        {
+            if (_splineKnotIndices == null) { _splineKnotIndices  = new List<SplineRangeData>(); }
+
+            SplineRangeData newSplineRangeData = new SplineRangeData();
+            newSplineRangeData.Ignore = ignore;
+            newSplineRangeData.Spline = spline;
+            newSplineRangeData.StartKnot = startKnot;
+            newSplineRangeData.knotCount = knotCount;
+            newSplineRangeData.Closed = closed;
+            newSplineRangeData.IsJunction = isJunction;
+
+            _splineKnotIndices.Add(newSplineRangeData);
+        }
     }
 
     [System.Serializable]

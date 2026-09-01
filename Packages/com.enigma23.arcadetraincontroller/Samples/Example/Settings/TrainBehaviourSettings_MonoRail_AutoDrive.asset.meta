@@ -10,6 +10,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 382992
   packageName: ATC - Arcade Train Controller
-  packageVersion: 1.0
+  packageVersion: 1.0.2
   assetPath: Packages/com.enigma23.arcadetraincontroller/Samples/Example/Settings/TrainBehaviourSettings_MonoRail_AutoDrive.asset
-  uploadId: 968070
+  uploadId: 984044

@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: StationSettings
   m_EditorClassIdentifier: 
   _timeToStop: 1
-  _waitDuration: 5
-  _instantStop: 0
+  _waitDuration: 3
   _resumeSpeed: 10
   _usePreviousSpeed: 1
-  _reverseTrainDirection: 1
+  _reverseTrainDirection: 0
   _ignoreAdditionalCarriages: 1

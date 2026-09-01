@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eb4f68467a14bbe498b063e971e14d66
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 167470
+  packageName: Cruise Ship
+  packageVersion: 1.0
+  assetPath: Assets/Scenes/Cruise_Ship/03.materials/Cruise Ship Day.mat
+  uploadId: 364648

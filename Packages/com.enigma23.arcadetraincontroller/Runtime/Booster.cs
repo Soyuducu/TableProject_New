@@ -13,6 +13,8 @@ namespace e23.TrainController
         protected int _ignoreCount = 0;
         protected TrainBehaviour _currentTrain;
 
+        public BoostSettings BoostSettings { get => _boostSettings; set => _boostSettings = value; }
+
         protected virtual void OnTriggerEnter(Collider collider)
         {
             var trainBehaviour = collider.gameObject.GetComponentInParent<TrainBehaviour>();

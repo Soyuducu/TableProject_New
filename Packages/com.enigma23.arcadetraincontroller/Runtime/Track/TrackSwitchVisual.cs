@@ -11,6 +11,19 @@ namespace e23.TrainController
         [SerializeField] protected TrackPathManager _trackPathManager;
         [SerializeField] protected List<IndexAngles> _trackAngles;
 
+        public TrackPathManager TrackPathManager { get => _trackPathManager; set => _trackPathManager = value; }
+
+        public virtual void AddAngles(int pathIndex, float angle)
+        {
+            if (_trackAngles == null) { _trackAngles = new List<IndexAngles>(); }
+
+            IndexAngles newIndexAngles = new IndexAngles();
+            newIndexAngles.pathIndex = pathIndex;
+            newIndexAngles.angle = angle;
+
+            _trackAngles.Add(newIndexAngles);
+        }
+
         protected virtual void Awake() => UpdateAlignment();
         protected virtual void OnEnable() => RegisterActions(true);
         protected virtual void OnDisable() => RegisterActions(false);

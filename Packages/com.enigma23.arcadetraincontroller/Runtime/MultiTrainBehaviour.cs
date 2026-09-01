@@ -19,11 +19,14 @@ namespace e23.TrainController
 
         public List<Carriage> Carriages { get => _carriages; set => _carriages = value; }
         public int CarriageCount => _carriages.Count - 1;
-        
+        public float CarriageDistance { get => _carriageDistance; set => _carriageDistance = value; }
+
         protected override void OnValidate()
         {
             if (Application.isPlaying) { SetStartoffset(); }
+#if UNITY_EDITOR
             else { UpdateEditModePosition(); }
+#endif
         }
 
         protected override void Awake()
@@ -32,7 +35,7 @@ namespace e23.TrainController
             GetRequiredComponents();
         }
 
-        protected override void Start() 
+        protected override void Start()
         {
             if (Application.isPlaying == false) { return; }
             GetPathInfo();
@@ -40,14 +43,14 @@ namespace e23.TrainController
             SetStartoffset();
             AutoDrive();
         }
-        
+
         protected override void GetRequiredComponents()
         {
             base.GetRequiredComponents();
 
-            if (_carriages == null) 
-            { 
-                _carriages = new List<Carriage>(); 
+            if (_carriages == null)
+            {
+                _carriages = new List<Carriage>();
                 _carriages.AddRange(GetComponentsInChildren<Carriage>());
             }
         }
@@ -135,8 +138,8 @@ namespace e23.TrainController
 
                     _carriages[i].transform.position = TrackPathManager.SplineContainer.transform.TransformPoint(localPos);
 
-                    var forward = (Vector3) TrackPathManager.SplineContainer.transform.TransformDirection(localTangent);
-                    var up = (Vector3) TrackPathManager.SplineContainer.transform.TransformDirection(localUp);
+                    var forward = TrackPathManager.SplineContainer.transform.TransformDirection(localTangent);
+                    var up = TrackPathManager.SplineContainer.transform.TransformDirection(localUp);
 
                     if (forward.magnitude > Mathf.Epsilon)
                     {
@@ -180,7 +183,7 @@ namespace e23.TrainController
                     else { currentDistance = 0f; }
                 }
             }
-            
+
             for (int i = 0; i < _carriages.Count; i++)
             {
                 float t = _carriageDistances[i] / _splinePathLength;
@@ -194,9 +197,9 @@ namespace e23.TrainController
         protected override void FixedUpdate()
         {
             if (_pathChangeWaiting) { CheckLocationOnPathForChange(); }
-            
+
             _distanceTravelled += _currentSpeed * Time.deltaTime;
-    
+
             if (_isClosedTrack) { _distanceTravelled %= _splinePathLength; }
             else { _distanceTravelled = Mathf.Clamp(_distanceTravelled, 0f, _splinePathLength); }
 
@@ -259,7 +262,7 @@ namespace e23.TrainController
         protected override void DistancePercentageCheck()
         {
             base.DistancePercentageCheck();
-            
+
             if (_isClosedTrack == true)
             {
                 for (int i = 0; i < _carriageDistances.Count; i++)
@@ -274,10 +277,12 @@ namespace e23.TrainController
         {
             base.GetNewPathTravelled(nativeSpline);
 
+            float3 carriageLocalPos = (float3) TrackPathManager.SplineContainer.transform.InverseTransformPoint(_carriages[0].transform.position);
+
             SplineUtility.GetNearestPoint
             (
                 nativeSpline,
-                (float3)_carriages[0].transform.position,
+                carriageLocalPos,
                 out float3 nearest,
                 out float nearestT
             );

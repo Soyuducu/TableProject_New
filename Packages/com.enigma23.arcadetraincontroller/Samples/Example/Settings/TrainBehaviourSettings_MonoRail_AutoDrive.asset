@@ -18,6 +18,6 @@ MonoBehaviour:
   _acceleration: 5
   _accelerationReverse: 5
   _deceleration: 8.6
-  _maxSpeed: 0.1
+  _maxSpeed: 13.5
   _maxSpeedReverse: -13.6
   _boostSpeed: 30

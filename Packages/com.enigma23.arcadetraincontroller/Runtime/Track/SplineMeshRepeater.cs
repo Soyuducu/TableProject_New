@@ -282,7 +282,7 @@ namespace e23.TrainController
             EditorUtility.SetDirty(this);
             AssetDatabase.SaveAssets();
         }
-#endif
+
         protected virtual void OptimiseMesh(Mesh mesh)
         {
             MeshUtility.Optimize(mesh);
@@ -299,7 +299,7 @@ namespace e23.TrainController
             mesh.RecalculateTangents();
             mesh.RecalculateBounds();
         }
-
+#endif
         protected readonly struct SplineFrame
         {
             public readonly Vector3 Position;

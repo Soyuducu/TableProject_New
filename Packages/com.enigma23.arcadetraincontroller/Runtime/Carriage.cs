@@ -12,6 +12,17 @@ namespace e23.TrainController
         [Tooltip("Each doors default position is cached in OnEnable, any value added here will be overwritten at runtime.")]
         [SerializeField] protected List<Door> _doors;
 
+        public virtual void CreateDoor(Transform door, Vector3 closedPos, Vector3 openPos)
+        {
+            Door newDoor = new Door();
+            newDoor.DoorTransform = door;
+            newDoor.ClosedPosition = closedPos;
+            newDoor.OpenPosition = openPos;
+
+            if (_doors == null) { _doors = new List<Door>(); }
+            _doors.Add(newDoor);
+        }
+
         protected virtual void Awake() => GetRequiredComponents();
 
         protected virtual void GetRequiredComponents()
