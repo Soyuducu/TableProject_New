@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: -686318331032246733, guid: 3794826eca7b1e74190cb331f3351bfd, type: 3}
     - target: {fileID: 919132149155446097, guid: 3794826eca7b1e74190cb331f3351bfd, type: 3}
       propertyPath: m_Name
-      value: Ground_01 1
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3794826eca7b1e74190cb331f3351bfd, type: 3}
       propertyPath: m_StaticEditorFlags

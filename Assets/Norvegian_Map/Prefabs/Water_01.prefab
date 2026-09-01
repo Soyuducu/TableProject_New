@@ -63,7 +63,15 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a02ffef057b742d4d94fd987ad982bd6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 449794fa9ff58a14e843f80bd0e31291, type: 2}
+      objectReference: {fileID: 2100000, guid: 614f8570742c1d14791ef34eb9ac7bbb, type: 2}
+    - target: {fileID: -7511558181221131132, guid: a02ffef057b742d4d94fd987ad982bd6, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 53a47232594dbad468af0d7e48795a02, type: 2}
+    - target: {fileID: -7511558181221131132, guid: a02ffef057b742d4d94fd987ad982bd6, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ba63f98f4896ca40b71757133f4f6fc, type: 2}
     - target: {fileID: -7511558181221131132, guid: a02ffef057b742d4d94fd987ad982bd6, type: 3}
       propertyPath: m_SelectedEditorRenderState
       value: 2
