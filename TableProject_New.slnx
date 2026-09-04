@@ -10,4 +10,5 @@
   <Project Path="e23.traincontroller.Editor.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="e23.ATC.Demo.csproj" />
+  <Project Path="e23.Common.Editor.csproj" />
 </Solution>

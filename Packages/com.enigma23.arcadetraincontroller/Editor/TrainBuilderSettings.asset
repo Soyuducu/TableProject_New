@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec7a8d1c56b55a64591ec3eb5d25933d, type: 3}
   m_Name: TrainBuilderSettings
   m_EditorClassIdentifier: 
-  _trainName: NewTrain
+  _trainName: Airship
   _trainModel: {fileID: 0}
   _bodyName: 
-  _trainBehaviourSettings: {fileID: 0}
+  _trainBehaviourSettings: {fileID: 11400000, guid: 7a9e133121db2d04bb2e7252bb4431b5, type: 2}
   _wheelNames: []
   _addCarriages: 0
   _carriages: []

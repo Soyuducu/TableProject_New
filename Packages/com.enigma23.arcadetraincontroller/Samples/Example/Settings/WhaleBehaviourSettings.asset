@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd8261ec399a74266bd34ef00208c729, type: 3}
-  m_Name: TrainBehaviourSettings_AutoDrive
+  m_Name: WhaleBehaviourSettings
   m_EditorClassIdentifier: 
   _autoStartEngine: 1
   _autoDrive: 1
-  _throttle: 0.1
-  _acceleration: 0.1
-  _accelerationReverse: 0.1
-  _deceleration: 2
-  _maxSpeed: 0.05
-  _maxSpeedReverse: -0.05
+  _throttle: 1
+  _acceleration: 3.55
+  _accelerationReverse: 3.55
+  _deceleration: 0.1
+  _maxSpeed: 0.01
+  _maxSpeedReverse: -0.1
   _boostSpeed: 30

@@ -15,8 +15,8 @@ MonoBehaviour:
   _autoStartEngine: 1
   _autoDrive: 1
   _throttle: 1
-  _acceleration: 0.1
-  _accelerationReverse: 0.1
+  _acceleration: 3.55
+  _accelerationReverse: 3.55
   _deceleration: 0.1
   _maxSpeed: 0.02
   _maxSpeedReverse: -0.1

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47390d0ed0fa3460baea7f0ec1af48a6, type: 3}
   m_Name: StationSettings
   m_EditorClassIdentifier: 
-  _timeToStop: 1
-  _waitDuration: 3
+  _timeToStop: 4
+  _waitDuration: 10
+  _instantStop: 0
   _resumeSpeed: 10
   _usePreviousSpeed: 1
-  _reverseTrainDirection: 0
+  _reverseTrainDirection: 1
   _ignoreAdditionalCarriages: 1
