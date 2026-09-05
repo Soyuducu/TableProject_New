@@ -14,7 +14,7 @@ namespace e23.TrainController
         [SerializeField][Range(0.1f, 15f)] private float _acceleration = 1f;
         [SerializeField][Range(0.1f, 15f)] private float _accelerationReverse = 1f;
         [SerializeField][Range(0.1f, 15f)] private float _deceleration = 1f;
-        [SerializeField][Range(0.01f, 50f)] private float _maxSpeed = 20f;
+        [SerializeField][Range(0f, 50f)] private float _maxSpeed = 20f;
         [SerializeField][Range(-50, 0f)] private float _maxSpeedReverse = -15f;
         [SerializeField][Range(0f, 50f)] private float _boostSpeed = 30f;
 
