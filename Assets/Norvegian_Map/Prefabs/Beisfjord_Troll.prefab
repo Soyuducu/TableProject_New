@@ -60,10 +60,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8457134672712677569, guid: 0844b81e16d127f43870f32441f2c083, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2b7fffe1e22481c41a63a3e894d2fa7f, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 0844b81e16d127f43870f32441f2c083, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 0844b81e16d127f43870f32441f2c083, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215976e9e32bec24a94f2055a2b4e06b, type: 2}
+      objectReference: {fileID: 2100000, guid: f0db3d04d7ff89940a74004a3a5f57a9, type: 2}
     - target: {fileID: 919132149155446097, guid: 0844b81e16d127f43870f32441f2c083, type: 3}
       propertyPath: m_Name
       value: Beisfjord_Troll
