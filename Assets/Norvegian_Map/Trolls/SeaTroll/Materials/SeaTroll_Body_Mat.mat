@@ -8,8 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SeaTroll_Body_Mat
-  m_Shader: {fileID: -6465566751694194690, guid: 1c593d200d3bce64dadcacf45c63eb89,
-    type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 1c593d200d3bce64dadcacf45c63eb89, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -139,7 +138,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AO_Add: 1
+    - _AO_Add: 0.484
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -166,7 +165,7 @@ Material:
     - _Level: -0.82
     - _METALNESS: 0.45
     - _Metallic: 0
-    - _MetalnesPower: 0.156
+    - _MetalnesPower: 0.13
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005

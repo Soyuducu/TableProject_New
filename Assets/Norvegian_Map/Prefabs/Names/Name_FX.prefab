@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2925113672944858488}
   - component: {fileID: 4018286216053398301}
   m_Layer: 0
-  m_Name: FX_Heal_02 (3)
+  m_Name: Nordlyskatedralen_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,12 +26,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60132842328172576}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1819588, y: -0.678405, z: -0.008011103}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0017412007, y: 0.0012111217, z: -0.15960498}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8048590774343018037}
+  m_Father: {fileID: 1125101010810077483}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &2925113672944858488
 ParticleSystem:
@@ -4920,12 +4920,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142350507961576586}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3852656, y: -0.71319973, z: -0.075695574}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.00033441186, y: -0.0004044026, z: -0.19439974}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5251944324643271867}
+  m_Father: {fileID: 8697720760487993297}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &8821869492677337451
 ParticleSystem:
@@ -9800,7 +9800,7 @@ GameObject:
   - component: {fileID: 6615099668740746721}
   - component: {fileID: 8021326556206339769}
   m_Layer: 0
-  m_Name: Bergkunsten_i_Alta_Name_FX
+  m_Name: RockArtAlta_Name_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9818,7 +9818,8 @@ Transform:
   m_LocalPosition: {x: 0.1433, y: -0.5188, z: 0.0818}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 4771121051598711162}
   m_Father: {fileID: 2308695333028411500}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &6615099668740746721
@@ -14600,7 +14601,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -14633,7 +14634,7 @@ GameObject:
   - component: {fileID: 6953680355812013428}
   - component: {fileID: 5010444151196510327}
   m_Layer: 0
-  m_Name: FX_Heal_02 (26)
+  m_Name: Jotunheimen_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14647,12 +14648,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368334634538071739}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2418, y: -0.5501, z: -0.975}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.0011000633, y: 0.0041000284, z: -0.031300012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7914146061811582710}
+  m_Father: {fileID: 5125684649471252076}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &6953680355812013428
 ParticleSystem:
@@ -19545,7 +19546,8 @@ Transform:
   m_LocalPosition: {x: -1.4867, y: -0.5181, z: -1.3622}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5427563192549104233}
   m_Father: {fileID: 4756664526959413241}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &6761142297668909016
@@ -24327,7 +24329,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -24378,7 +24380,8 @@ Transform:
   m_LocalPosition: {x: -1.2685, y: -0.5181, z: -1.1315}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5985736108624500324}
   m_Father: {fileID: 4756664526959413241}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &7171405883117079610
@@ -29160,7 +29163,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -29193,7 +29196,7 @@ GameObject:
   - component: {fileID: 6677347383918390427}
   - component: {fileID: 1388238768336637790}
   m_Layer: 0
-  m_Name: FX_Heal_02 (23)
+  m_Name: Folgefonna_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29207,12 +29210,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677873937733234480}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.4819, y: -0.6606, z: -1.364}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.0048000813, y: 0.001799956, z: -0.1425}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7914146061811582710}
+  m_Father: {fileID: 4495129323087452475}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &6677347383918390427
 ParticleSystem:
@@ -34105,7 +34108,8 @@ Transform:
   m_LocalPosition: {x: 0.1837, y: -0.51876, z: 0.02349}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2698636540431889481}
   m_Father: {fileID: 7576280572693428645}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &1616145520948094220
@@ -38887,7 +38891,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -38920,7 +38924,7 @@ GameObject:
   - component: {fileID: 7470182743139448131}
   - component: {fileID: 5452421575953435672}
   m_Layer: 0
-  m_Name: FX_Heal_02 (1)
+  m_Name: Nordcapp_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38934,12 +38938,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1116466578844550800}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3433, y: -0.6884127, z: 0.2476}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.0014000237, y: 0.002700001, z: -0.15311272}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4130502524491027982}
+  m_Father: {fileID: 5261032685400847399}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &7470182743139448131
 ParticleSystem:
@@ -43832,7 +43836,8 @@ Transform:
   m_LocalPosition: {x: -1.1851, y: -0.5188, z: -0.7972}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5931072021714978830}
   m_Father: {fileID: 7944368703972734518}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &1220054662707544994
@@ -48614,7 +48619,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -48647,7 +48652,7 @@ GameObject:
   - component: {fileID: 9217146659089726059}
   - component: {fileID: 3266141252197890650}
   m_Layer: 0
-  m_Name: Ishavskatedralen_Name_FX
+  m_Name: ArcticCathedral_Name_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48665,7 +48670,8 @@ Transform:
   m_LocalPosition: {x: -0.0566, y: -0.5188, z: 0.0176}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1868984310448519253}
   m_Father: {fileID: 2308695333028411500}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &9217146659089726059
@@ -53447,7 +53453,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -53498,7 +53504,8 @@ Transform:
   m_LocalPosition: {x: -0.96842945, y: -0.5188, z: -0.82126594}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8912491733122596879}
   m_Father: {fileID: 2308695333028411500}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &7862004008601983027
@@ -58280,7 +58287,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -58331,7 +58338,8 @@ Transform:
   m_LocalPosition: {x: -1.3309, y: -0.5181, z: -1.4582}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 4500667592330870374}
   m_Father: {fileID: 7576280572693428645}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &8016620207401004971
@@ -63113,7 +63121,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -63164,7 +63172,8 @@ Transform:
   m_LocalPosition: {x: -0.7588, y: -0.5188, z: -0.5178}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5626226650756654243}
   m_Father: {fileID: 4756664526959413241}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &3703733045016960830
@@ -67946,7 +67955,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -67979,7 +67988,7 @@ GameObject:
   - component: {fileID: 3485552058107411065}
   - component: {fileID: 5521819064829436803}
   m_Layer: 0
-  m_Name: FX_Heal_02 (2)
+  m_Name: TrollHolsmund_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67993,12 +68002,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1828524539396325913}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2806183, y: -0.6904537, z: 0.1549524}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0015179515, y: -0.001245603, z: -0.1533537}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7914146061811582710}
+  m_Father: {fileID: 7501792472627632189}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &3485552058107411065
 ParticleSystem:
@@ -72873,7 +72882,7 @@ GameObject:
   - component: {fileID: 6016703048004185275}
   - component: {fileID: 800964033648151798}
   m_Layer: 0
-  m_Name: FX_Heal_02 (33)
+  m_Name: Bryggen_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72887,12 +72896,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882179869685683905}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.45853, y: -0.6963396, z: -1.07286}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.00016999245, y: 0.00059999526, z: -0.1782396}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8048590774343018037}
+  m_Father: {fileID: 2990042241221245915}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &6016703048004185275
 ParticleSystem:
@@ -77767,7 +77776,7 @@ GameObject:
   - component: {fileID: 6016648043869785838}
   - component: {fileID: 6731273305433437402}
   m_Layer: 0
-  m_Name: FX_Heal_02 (27)
+  m_Name: Torghatten_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77781,12 +77790,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1970048406341752025}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7589, y: -0.6784, z: -0.5184}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.00009995699, y: 0.00059981644, z: -0.15959997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7914146061811582710}
+  m_Father: {fileID: 3282106012702439296}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &6016648043869785838
 ParticleSystem:
@@ -82675,12 +82684,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2223285279931402283}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.3000088, y: -0.6979917, z: -0.78762966}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.001491189, y: -0.00067029893, z: -0.17919172}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5251944324643271867}
+  m_Father: {fileID: 6203234639907883587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &3466814032615548166
 ParticleSystem:
@@ -87569,12 +87578,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2544235131892187213}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.3324, y: -0.69733477, z: -1.4612}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0015000105, y: 0.0030000359, z: -0.17923476}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5251944324643271867}
+  m_Father: {fileID: 7544504441567946627}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &3487675821693311559
 ParticleSystem:
@@ -92467,7 +92476,8 @@ Transform:
   m_LocalPosition: {x: 0.28213626, y: -0.5371, z: 0.15370679}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7228473066285474940}
   m_Father: {fileID: 4756664526959413241}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &2413814533619069089
@@ -97249,7 +97259,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -97296,12 +97306,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2990487306859927341}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.9664, y: -0.68188334, z: -0.8232}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.002029419, y: 0.0019340664, z: -0.16308333}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8048590774343018037}
+  m_Father: {fileID: 4791976938324444103}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &7172303358880324228
 ParticleSystem:
@@ -102194,7 +102204,8 @@ Transform:
   m_LocalPosition: {x: -0.5126, y: -0.5188, z: -0.2418}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8300648981575758616}
   m_Father: {fileID: 4756664526959413241}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &4229826572165742233
@@ -106976,7 +106987,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -107027,7 +107038,8 @@ Transform:
   m_LocalPosition: {x: -1.1373, y: -0.5181, z: -1.1076999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5501558273966632069}
   m_Father: {fileID: 4756664526959413241}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &2630833454648664807
@@ -111809,7 +111821,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -111842,7 +111854,7 @@ GameObject:
   - component: {fileID: 1508501343651438812}
   - component: {fileID: 4904535011093414759}
   m_Layer: 0
-  m_Name: FX_Heal_02 (15)
+  m_Name: SwordsRock_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111856,12 +111868,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3079858913082401895}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5829, y: -0.6979917, z: -1.4026}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.0026999712, y: -0.0037999004, z: -0.17989172}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8048590774343018037}
+  m_Father: {fileID: 3638217625072558937}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &1508501343651438812
 ParticleSystem:
@@ -116736,7 +116748,7 @@ GameObject:
   - component: {fileID: 6055501276254831426}
   - component: {fileID: 1325898692171311595}
   m_Layer: 0
-  m_Name: Sverd_i_fjell_Name_FX
+  m_Name: SwordsRock_Name_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116754,7 +116766,8 @@ Transform:
   m_LocalPosition: {x: -1.5856, y: -0.5181, z: -1.4064}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6159620217112365981}
   m_Father: {fileID: 2308695333028411500}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &6055501276254831426
@@ -121536,7 +121549,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -121587,7 +121600,8 @@ Transform:
   m_LocalPosition: {x: -1.2429, y: -0.5188, z: -0.9709}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8081309828805191304}
   m_Father: {fileID: 4756664526959413241}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &3307311520794817346
@@ -126369,7 +126383,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -126402,7 +126416,7 @@ GameObject:
   - component: {fileID: 5514352126131334800}
   - component: {fileID: 6562935030865327360}
   m_Layer: 0
-  m_Name: FX_Heal_02 (25)
+  m_Name: Jutlamannen_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -126416,12 +126430,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3467568292915558891}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1375926, y: -0.61076665, z: -1.1088529}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0002925396, y: 0.0011529997, z: -0.09266663}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7914146061811582710}
+  m_Father: {fileID: 4159889924861856985}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &5514352126131334800
 ParticleSystem:
@@ -131314,7 +131328,8 @@ Transform:
   m_LocalPosition: {x: 0.4586, y: -0.5353, z: 0.2218}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 4251967008961245247}
   m_Father: {fileID: 7944368703972734518}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &1553184109572764511
@@ -136096,7 +136111,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -136129,7 +136144,7 @@ GameObject:
   - component: {fileID: 1193441670503500550}
   - component: {fileID: 7480548819830693704}
   m_Layer: 0
-  m_Name: FX_Heal_02 (31)
+  m_Name: Trollstigen_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136143,12 +136158,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3679330393860994633}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1860607, y: -0.6963396, z: -0.79947746}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.00096070766, y: 0.0022774488, z: -0.1775396}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4130502524491027982}
+  m_Father: {fileID: 3152723861196361005}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &1193441670503500550
 ParticleSystem:
@@ -141041,7 +141056,8 @@ Transform:
   m_LocalPosition: {x: 0.1837, y: -0.5188, z: -0.0068}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2076725835711411439}
   m_Father: {fileID: 2308695333028411500}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &8408419649954027626
@@ -145823,7 +145839,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -145856,7 +145872,7 @@ GameObject:
   - component: {fileID: 3036541109379089697}
   - component: {fileID: 2391786391304910840}
   m_Layer: 0
-  m_Name: Lindesnes lighthouse_Name_FX
+  m_Name: Lindesnes_lighthouse_Name_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -145874,7 +145890,8 @@ Transform:
   m_LocalPosition: {x: -1.5501001, y: -0.5188, z: -1.4869}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 4193166209534931526}
   m_Father: {fileID: 7944368703972734518}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &3036541109379089697
@@ -150656,7 +150673,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -150707,7 +150724,8 @@ Transform:
   m_LocalPosition: {x: -0.94502944, y: -0.5188, z: -0.80226594}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8977429379331892901}
   m_Father: {fileID: 7576280572693428645}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &798403917853782703
@@ -155489,7 +155507,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -155540,7 +155558,8 @@ Transform:
   m_LocalPosition: {x: -1.5878, y: -0.5181, z: -1.3551}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7212829789018110202}
   m_Father: {fileID: 7576280572693428645}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &1376127647954633046
@@ -160322,7 +160341,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -160355,7 +160374,7 @@ GameObject:
   - component: {fileID: 2856615996523171240}
   - component: {fileID: 3060624573562661068}
   m_Layer: 0
-  m_Name: FX_Heal_02 (9)
+  m_Name: Gloppen_Lighthouse_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160369,12 +160388,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4371818622557488484}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5097611, y: -0.70783865, z: -0.1018697}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0006610751, y: -0.004830271, z: -0.18903866}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4130502524491027982}
+  m_Father: {fileID: 6021400121599743818}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &2856615996523171240
 ParticleSystem:
@@ -165263,12 +165282,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4425035759251762090}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.4945, y: -0.69602203, z: -1.0748}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.00069999695, y: 0.001600042, z: -0.17792203}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5251944324643271867}
+  m_Father: {fileID: 7700660035631339351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &4786655631329143155
 ParticleSystem:
@@ -170161,7 +170180,8 @@ Transform:
   m_LocalPosition: {x: -1.4587, y: -0.5181, z: -1.07226}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5697726336312371924}
   m_Father: {fileID: 2308695333028411500}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &5279517148492948741
@@ -174943,7 +174963,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -174994,7 +175014,8 @@ Transform:
   m_LocalPosition: {x: -0.0769, y: -0.5188, z: 0.1198}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6932995870195402917}
   m_Father: {fileID: 7576280572693428645}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &3131704414410650457
@@ -179776,7 +179797,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -179809,7 +179830,7 @@ GameObject:
   - component: {fileID: 650055783663782411}
   - component: {fileID: 7079422296275050455}
   m_Layer: 0
-  m_Name: "De syv s\xF8stre_Name_FX"
+  m_Name: SevenSisters_Name_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -179827,7 +179848,8 @@ Transform:
   m_LocalPosition: {x: -0.6441, y: -0.5188, z: -0.4373}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 294061989261498542}
   m_Father: {fileID: 4756664526959413241}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &650055783663782411
@@ -184609,7 +184631,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -184659,7 +184681,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4130502524491027982}
   - {fileID: 7944368703972734518}
   m_Father: {fileID: 55994816869660978}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -184693,7 +184714,8 @@ Transform:
   m_LocalPosition: {x: 0.3419, y: -0.5353, z: 0.2503}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3492235750622763349}
   m_Father: {fileID: 7944368703972734518}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &6685539691996202665
@@ -189475,7 +189497,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -189522,12 +189544,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5135143546388036851}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1829, y: -0.678405, z: 0.0235}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.00079999864, y: 0, z: -0.15964498}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5251944324643271867}
+  m_Father: {fileID: 4742927157496292765}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &7548972658631447020
 ParticleSystem:
@@ -194402,7 +194424,7 @@ GameObject:
   - component: {fileID: 8055167238819232351}
   - component: {fileID: 5875294099183166695}
   m_Layer: 0
-  m_Name: FX_Heal_02 (7)
+  m_Name: Beisfjordgubben_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -194416,12 +194438,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5254652540128092595}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.23788586, y: -0.6991, z: -0.13626933}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0012858659, y: -0.00063067675, z: -0.18030001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7914146061811582710}
+  m_Father: {fileID: 7466680801023828902}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &8055167238819232351
 ParticleSystem:
@@ -199284,47 +199306,6 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!1 &5352438020241600229
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5251944324643271867}
-  m_Layer: 0
-  m_Name: Cities_FX
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5251944324643271867
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5352438020241600229}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2558360170803408802}
-  - {fileID: 6932995870195402917}
-  - {fileID: 2048277244467498915}
-  - {fileID: 8977429379331892901}
-  - {fileID: 7212829789018110202}
-  - {fileID: 4500667592330870374}
-  - {fileID: 1636646543790141524}
-  - {fileID: 5189207515910114913}
-  - {fileID: 7727617591424562212}
-  - {fileID: 2698636540431889481}
-  m_Father: {fileID: 2979127890708406265}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5453049476829381193
 GameObject:
   m_ObjectHideFlags: 0
@@ -199337,7 +199318,7 @@ GameObject:
   - component: {fileID: 6819058800251040142}
   - component: {fileID: 4068007386782988627}
   m_Layer: 0
-  m_Name: FX_Heal_02
+  m_Name: Lighthouse_Slettnes_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199351,12 +199332,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5453049476829381193}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4582, y: -0.6528, z: 0.2219}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.00040000677, y: -0.00009998679, z: -0.11750002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4130502524491027982}
+  m_Father: {fileID: 955766037146194022}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &6819058800251040142
 ParticleSystem:
@@ -204290,7 +204271,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7914146061811582710}
   - {fileID: 4756664526959413241}
   m_Father: {fileID: 55994816869660978}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -204324,7 +204304,8 @@ Transform:
   m_LocalPosition: {x: -0.1883, y: -0.5188, z: -0.0887}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2558360170803408802}
   m_Father: {fileID: 7576280572693428645}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &4977478181065401431
@@ -209106,7 +209087,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -209139,7 +209120,7 @@ GameObject:
   - component: {fileID: 5207276974370650633}
   - component: {fileID: 6900324189840183580}
   m_Layer: 0
-  m_Name: FX_Heal_02 (20)
+  m_Name: Borgund stavkirke_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209153,12 +209134,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5825977126972641408}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.0766, y: -0.68188334, z: -1.0878}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0025999546, y: -0.0014999956, z: -0.16378333}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8048590774343018037}
+  m_Father: {fileID: 6783256747125853132}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &5207276974370650633
 ParticleSystem:
@@ -214092,7 +214073,8 @@ Transform:
   m_LocalPosition: {x: -1.5064, y: -0.5181, z: -1.4123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 4288146234246409494}
   m_Father: {fileID: 4756664526959413241}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &9003064375882627528
@@ -218874,7 +218856,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -218895,48 +218877,6 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!1 &6000055416740398503
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7914146061811582710}
-  m_Layer: 0
-  m_Name: Nature_Legends_FX
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7914146061811582710
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6000055416740398503}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5985736108624500324}
-  - {fileID: 5501558273966632069}
-  - {fileID: 8081309828805191304}
-  - {fileID: 2187583254392757005}
-  - {fileID: 5427563192549104233}
-  - {fileID: 4288146234246409494}
-  - {fileID: 5626226650756654243}
-  - {fileID: 294061989261498542}
-  - {fileID: 7228473066285474940}
-  - {fileID: 6890300291216448656}
-  - {fileID: 8300648981575758616}
-  m_Father: {fileID: 6211337051176869738}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6059701055568011043
 GameObject:
   m_ObjectHideFlags: 0
@@ -218949,7 +218889,7 @@ GameObject:
   - component: {fileID: 4409934650494035313}
   - component: {fileID: 7323541765890128357}
   m_Layer: 0
-  m_Name: FX_Heal_02 (22)
+  m_Name: Preikestolen_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -218963,12 +218903,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6059701055568011043}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5353, y: -0.6979917, z: -1.2926}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.0024000555, z: -0.17989172}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7914146061811582710}
+  m_Father: {fileID: 9153688394903546135}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &4409934650494035313
 ParticleSystem:
@@ -223857,12 +223797,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6418462429836926155}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07611996, y: -0.7094429, z: 0.11645424}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.00078003854, y: 0.0033457875, z: -0.19064292}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5251944324643271867}
+  m_Father: {fileID: 2247571423442095687}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &2796610392003929795
 ParticleSystem:
@@ -228755,7 +228695,8 @@ Transform:
   m_LocalPosition: {x: -1.5353, y: -0.5181, z: -1.2902}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2187583254392757005}
   m_Father: {fileID: 4756664526959413241}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &1427241289719387529
@@ -233537,7 +233478,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -233588,7 +233529,8 @@ Transform:
   m_LocalPosition: {x: -1.3015, y: -0.5188, z: -0.7883}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5189207515910114913}
   m_Father: {fileID: 7576280572693428645}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &3281367267221724166
@@ -238370,7 +238312,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -238403,7 +238345,7 @@ GameObject:
   - component: {fileID: 72074060860959577}
   - component: {fileID: 760701006641304475}
   m_Layer: 0
-  m_Name: FX_Heal_02 (32)
+  m_Name: RockArtAlta_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -238417,12 +238359,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6725857752075078892}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1437, y: -0.6904537, z: 0.0815}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.00040000677, y: 0.00030001998, z: -0.17165369}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8048590774343018037}
+  m_Father: {fileID: 6973642127150340993}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &72074060860959577
 ParticleSystem:
@@ -243352,47 +243294,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8048590774343018037}
   - {fileID: 2308695333028411500}
   m_Father: {fileID: 55994816869660978}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7221930961473015887
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4130502524491027982}
-  m_Layer: 0
-  m_Name: Coast_Scenic_Roads_FX
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4130502524491027982
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7221930961473015887}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4251967008961245247}
-  - {fileID: 3492235750622763349}
-  - {fileID: 5757919461262997847}
-  - {fileID: 34552467358435138}
-  - {fileID: 5931072021714978830}
-  - {fileID: 5292936231563545740}
-  - {fileID: 4193166209534931526}
-  m_Father: {fileID: 8609783976754367497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7250005318746354753
 GameObject:
@@ -243445,7 +243348,7 @@ GameObject:
   - component: {fileID: 8443952575658715277}
   - component: {fileID: 5877059766836995234}
   m_Layer: 0
-  m_Name: FX_Heal_02 (29)
+  m_Name: Svartisen_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243459,12 +243362,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7401236355223017995}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5131, y: -0.7092, z: -0.2426}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.00050002337, y: 0.00080002844, z: -0.19040003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7914146061811582710}
+  m_Father: {fileID: 1182724384040407381}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &8443952575658715277
 ParticleSystem:
@@ -248336,6 +248239,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 55994816869660978}
+  - component: {fileID: 6719386578865247561}
   m_Layer: 0
   m_Name: Name_FX
   m_TagString: Untagged
@@ -248351,7 +248255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7411235257031830132}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -248362,6 +248266,24 @@ Transform:
   - {fileID: 6211337051176869738}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6719386578865247561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7411235257031830132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51407ed14958bc48a0173bcafc11cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 5848669147769642018}
+  - {fileID: 7250005318746354753}
+  - {fileID: 6773813227626317688}
+  - {fileID: 5526594834094408739}
+  firstButton: {fileID: 0}
 --- !u!1 &7503392334472593102
 GameObject:
   m_ObjectHideFlags: 0
@@ -248392,7 +248314,8 @@ Transform:
   m_LocalPosition: {x: -0.9961, y: -0.5188, z: -0.6661}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 34552467358435138}
   m_Father: {fileID: 7944368703972734518}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &4480010766810725835
@@ -253174,7 +253097,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -253224,7 +253147,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5251944324643271867}
   - {fileID: 7576280572693428645}
   m_Father: {fileID: 55994816869660978}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -253254,12 +253176,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7727677655533022048}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.0681, y: -0.6963, z: -1.3019}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.00029993057, y: 0.000100031495, z: -0.17820002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5251944324643271867}
+  m_Father: {fileID: 4341305630131003651}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &2562741360441745225
 ParticleSystem:
@@ -258134,7 +258056,7 @@ GameObject:
   - component: {fileID: 1184582156064468288}
   - component: {fileID: 4417481561197741759}
   m_Layer: 0
-  m_Name: FX_Heal_02 (4)
+  m_Name: ArcticCathedral_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -258148,12 +258070,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7786970655745239677}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.058261037, y: -0.69638675, z: 0.015609384}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0016610362, y: 0.0019906312, z: -0.17758675}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8048590774343018037}
+  m_Father: {fileID: 341172273370489123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &1184582156064468288
 ParticleSystem:
@@ -263042,12 +262964,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7804974539612756517}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.943, y: -0.68188334, z: -0.8042}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.002029419, y: 0.0019340664, z: -0.16308333}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5251944324643271867}
+  m_Father: {fileID: 7473280682787384858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &6176238845055665952
 ParticleSystem:
@@ -267936,12 +267858,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7945445677965132880}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5872629, y: -0.683652, z: -1.3572791}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.00053715706, y: 0.0021790415, z: -0.16555198}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5251944324643271867}
+  m_Father: {fileID: 336874516869781559}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &2760927168704249087
 ParticleSystem:
@@ -272834,7 +272756,8 @@ Transform:
   m_LocalPosition: {x: -1.1023, y: -0.5181, z: -1.3307}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5382467209870035408}
   m_Father: {fileID: 2308695333028411500}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &2215915734610951616
@@ -277616,7 +277539,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -277667,7 +277590,8 @@ Transform:
   m_LocalPosition: {x: -0.2366, y: -0.5188, z: -0.1369}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6890300291216448656}
   m_Father: {fileID: 4756664526959413241}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &7575060762448151579
@@ -282449,7 +282373,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -282482,7 +282406,7 @@ GameObject:
   - component: {fileID: 8286182344863610656}
   - component: {fileID: 2239300385951447585}
   m_Layer: 0
-  m_Name: FX_Heal_02 (12)
+  m_Name: Lighthouse_Kjeungskjar_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -282496,12 +282420,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8090364637319243624}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.998, y: -0.6888, z: -0.6652}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0019000173, y: -0.00090001523, z: -0.16999997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4130502524491027982}
+  m_Father: {fileID: 1397092041931019217}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &8286182344863610656
 ParticleSystem:
@@ -287376,7 +287300,7 @@ GameObject:
   - component: {fileID: 2693822107414054695}
   - component: {fileID: 1299975706036539835}
   m_Layer: 0
-  m_Name: Atlanterhavsveien_Name_FX
+  m_Name: AtlanticOceanRoad_Name_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -287394,7 +287318,8 @@ Transform:
   m_LocalPosition: {x: -1.1409, y: -0.5188, z: -0.7264}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5292936231563545740}
   m_Father: {fileID: 7944368703972734518}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &2693822107414054695
@@ -292176,7 +292101,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -292209,7 +292134,7 @@ GameObject:
   - component: {fileID: 3159901424256810691}
   - component: {fileID: 5894288257519970242}
   m_Layer: 0
-  m_Name: FX_Heal_02 (21)
+  m_Name: Kjeragbolten_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -292223,12 +292148,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8332405018031009516}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5067952, y: -0.64868754, z: -1.4119382}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0003951788, y: -0.0003617853, z: -0.13058753}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7914146061811582710}
+  m_Father: {fileID: 8255578601945679773}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &3159901424256810691
 ParticleSystem:
@@ -297121,7 +297046,8 @@ Transform:
   m_LocalPosition: {x: -1.4952, y: -0.5181, z: -1.0732}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7727617591424562212}
   m_Father: {fileID: 7576280572693428645}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &1913616426142901741
@@ -301903,7 +301829,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -301954,7 +301880,8 @@ Transform:
   m_LocalPosition: {x: -1.074, y: -0.5181, z: -1.0893}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 432140588123666470}
   m_Father: {fileID: 2308695333028411500}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &7205092816223535175
@@ -306736,7 +306663,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -306787,7 +306714,8 @@ Transform:
   m_LocalPosition: {x: -0.5091, y: -0.5188, z: -0.1067}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5757919461262997847}
   m_Father: {fileID: 7944368703972734518}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &1435255604628686372
@@ -311569,7 +311497,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -311602,7 +311530,7 @@ GameObject:
   - component: {fileID: 1736253258692991886}
   - component: {fileID: 3447045412824982352}
   m_Layer: 0
-  m_Name: Atlanterhavsveien_FX
+  m_Name: AtlanticOceanRoad_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -311616,12 +311544,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8448207556865589017}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1418607, y: -0.6963396, z: -0.72867745}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.00096070766, y: 0.0022774488, z: -0.1775396}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4130502524491027982}
+  m_Father: {fileID: 4773553587848844840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &1736253258692991886
 ParticleSystem:
@@ -316496,7 +316424,7 @@ GameObject:
   - component: {fileID: 3467499241003810232}
   - component: {fileID: 1479359442042994503}
   m_Layer: 0
-  m_Name: Lindesnes lighthouse_FX
+  m_Name: Lindesnes_lighthouse_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -316510,12 +316438,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8617785771943144726}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.552, y: -0.6888, z: -1.486}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0018999577, y: -0.00090001523, z: -0.16999997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4130502524491027982}
+  m_Father: {fileID: 6368209088001020187}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &3467499241003810232
 ParticleSystem:
@@ -321408,7 +321336,8 @@ Transform:
   m_LocalPosition: {x: -1.0678, y: -0.5181, z: -1.3018}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1636646543790141524}
   m_Father: {fileID: 7576280572693428645}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &9161613895248350527
@@ -326190,7 +326119,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1
@@ -326223,7 +326152,7 @@ GameObject:
   - component: {fileID: 8537656785491207609}
   - component: {fileID: 604535000137708011}
   m_Layer: 0
-  m_Name: FX_Heal_02 (28)
+  m_Name: SevenSisters_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -326237,12 +326166,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8707322980465286868}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6439, y: -0.6784, z: -0.437}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.00020003319, y: -0.00029997528, z: -0.15959997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7914146061811582710}
+  m_Father: {fileID: 2830544151097946914}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &8537656785491207609
 ParticleSystem:
@@ -331131,12 +331060,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8754211833550270693}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1001, y: -0.7033, z: -1.3306}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.0022000074, y: -0.00010000169, z: -0.18519999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8048590774343018037}
+  m_Father: {fileID: 5284463399825174504}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &8915454859370628799
 ParticleSystem:
@@ -336011,7 +335940,7 @@ GameObject:
   - component: {fileID: 2547733068349866109}
   - component: {fileID: 8509241024706536688}
   m_Layer: 0
-  m_Name: FX_Heal_02 (24)
+  m_Name: Trolltunga_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -336025,12 +335954,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8806258739951839798}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2709458, y: -0.6010304, z: -1.1299837}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.002445817, y: -0.0015163347, z: -0.08293039}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7914146061811582710}
+  m_Father: {fileID: 5953694357454787408}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &2547733068349866109
 ParticleSystem:
@@ -340919,12 +340848,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9024391733923951027}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1903049, y: -0.6987914, z: -0.0888018}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0020049065, y: 0.000101819634, z: -0.17999138}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5251944324643271867}
+  m_Father: {fileID: 9018460785609373308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &5887777009204279762
 ParticleSystem:
@@ -345787,45 +345716,6 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!1 &9060610952551881320
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8048590774343018037}
-  m_Layer: 0
-  m_Name: Architecture_Heritag_FX
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8048590774343018037
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9060610952551881320}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1868984310448519253}
-  - {fileID: 6159620217112365981}
-  - {fileID: 5697726336312371924}
-  - {fileID: 432140588123666470}
-  - {fileID: 4771121051598711162}
-  - {fileID: 2076725835711411439}
-  - {fileID: 5382467209870035408}
-  - {fileID: 8912491733122596879}
-  m_Father: {fileID: 5073993771028399109}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9196040619979963904
 GameObject:
   m_ObjectHideFlags: 0
@@ -345856,7 +345746,8 @@ Transform:
   m_LocalPosition: {x: -0.3856, y: -0.5188, z: -0.0761}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2048277244467498915}
   m_Father: {fileID: 7576280572693428645}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &8379731343431384629
@@ -350638,7 +350529,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
-  m_RenderAlignment: 3
+  m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_EnableGPUInstancing: 1

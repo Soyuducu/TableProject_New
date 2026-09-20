@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: ae26a9ceb81b45046bf64901a06c1869
+AssetOrigin:
+  serializedVersion: 1
+  productId: 288110
+  packageName: Simple Aircraft Pack
+  packageVersion: 1.0
+  assetPath: Assets/Polyeler/Simple Aircraft Pack/Meshes/Passenger Aircraft V1.fbx
+  uploadId: 675626
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -16,8 +23,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -71,7 +76,7 @@ ModelImporter:
     strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
@@ -107,10 +112,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 288110
-  packageName: Simple Aircraft Pack
-  packageVersion: 1.0
-  assetPath: Assets/Polyeler/Simple Aircraft Pack/Meshes/Passenger Aircraft V1.fbx
-  uploadId: 675626
