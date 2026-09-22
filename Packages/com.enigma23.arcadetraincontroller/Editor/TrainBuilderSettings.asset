@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec7a8d1c56b55a64591ec3eb5d25933d, type: 3}
   m_Name: TrainBuilderSettings
   m_EditorClassIdentifier: 
-  _trainName: Airship
-  _trainModel: {fileID: 0}
+  _trainName: car1
+  _trainModel: {fileID: 4103717480500152847, guid: 302268f4c617557418c816e65205b105, type: 3}
   _bodyName: 
   _trainBehaviourSettings: {fileID: 11400000, guid: 7a9e133121db2d04bb2e7252bb4431b5, type: 2}
   _wheelNames: []
