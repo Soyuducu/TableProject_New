@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ae3ed57ec0bbd7144befbd0bd74e7e2e
+guid: 6523b0c47465ebd48857d444a182dd32
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -51,7 +51,7 @@ TextureImporter:
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
-  alphaUsage: 1
+  alphaUsage: 0
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -110,23 +110,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Field_09_0
+      name: Nidaros Cathedral_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 241
-        height: 133
+        width: 3648
+        height: 3648
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 28, y: 26, z: 30, w: 30}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccc612c6a01c6314c98bfdc5b7bbf49b
-      internalID: -150983263
+      spriteID: 9d836edd7e7582e4ab93fc4b771924eb
+      internalID: -73700553
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7219378e9e12cd04ea59b69698a452dc
+    spriteID: 717eff6616ea4004aacac392910e72ec
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Field_09_0: -150983263
+      Nidaros Cathedral_0: -73700553
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
