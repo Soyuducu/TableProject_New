@@ -24245,7 +24245,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2811043519116928585}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -52486,7 +52486,7 @@ ParticleSystem:
     textureScale: {x: 1, y: 1}
     ribbonCount: 1
     shadowBias: 0
-    worldSpace: 1
+    worldSpace: 0
     dieWithParticles: 0
     sizeAffectsWidth: 1
     sizeAffectsLifetime: 0
@@ -76762,7 +76762,7 @@ ParticleSystem:
     textureScale: {x: 1, y: 1}
     ribbonCount: 1
     shadowBias: 0
-    worldSpace: 1
+    worldSpace: 0
     dieWithParticles: 0
     sizeAffectsWidth: 1
     sizeAffectsLifetime: 0
@@ -116299,13 +116299,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: FX_Nord_Glow 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3345369194258365314, guid: 10ecab9943d131249a8e06ac80a07aa2, type: 3}
+      propertyPath: scalingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345369194258365314, guid: 10ecab9943d131249a8e06ac80a07aa2, type: 3}
+      propertyPath: simulationSpeed
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 8697966924164361591, guid: 10ecab9943d131249a8e06ac80a07aa2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 8697966924164361591, guid: 10ecab9943d131249a8e06ac80a07aa2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.164
+      value: -0.1194
       objectReference: {fileID: 0}
     - target: {fileID: 8697966924164361591, guid: 10ecab9943d131249a8e06ac80a07aa2, type: 3}
       propertyPath: m_LocalPosition.z
