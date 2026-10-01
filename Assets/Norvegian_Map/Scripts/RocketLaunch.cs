@@ -41,8 +41,8 @@ public class RocketLaunch : MonoBehaviour
     void Start()
     {
         // Запоминаем стартовую позицию и ротацию площадки
-        startPosition = transform.position;
-        startRotation = transform.rotation;
+        startPosition = transform.localPosition;
+        startRotation = transform.localRotation;
 
         // Находим компоненты для скрытия/показа
         meshRenderer = GetComponent<MeshRenderer>();
@@ -81,8 +81,8 @@ public class RocketLaunch : MonoBehaviour
         while (true)
         {
             // 1. ПОЯВЛЕНИЕ НА СТАРТОВОМ СТОЛЕ
-            transform.position = startPosition;
-            transform.rotation = startRotation;
+            transform.localPosition = startPosition;
+            transform.localRotation = startRotation;
             currentSpeed = startSpeed;
             timeElapsedSinceLaunch = 0f;
             SetRocketActive(true);
